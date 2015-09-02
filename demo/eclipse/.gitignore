@@ -1,0 +1,16 @@
+*.iml
+.idea
+local.properties
+bintray.properties
+build
+mapping.txt
+.gradle
+node_modules
+_api_docs
+bin
+gen
+nbandroid
+*.class
+compat/supportkit/libs/core-*.jar
+compat/supportkit/libs/ui-*.jar
+compat/supportkit/res

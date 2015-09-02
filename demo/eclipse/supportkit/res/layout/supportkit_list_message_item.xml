@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:paddingBottom="8dp"
+				android:paddingLeft="8dp"
+				android:paddingRight="8dp">
+
+	<TextView
+			android:id="@+id/time"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_alignParentTop="true"
+			android:gravity="center_horizontal"
+			android:paddingBottom="16dp"
+			android:paddingTop="16dp"
+			android:textAllCaps="true"
+			android:textColor="@color/SupportKit_messageDate"
+			android:textSize="@dimen/SupportKit_messageDate"/>
+
+	<ImageView
+			android:id="@+id/image"
+			android:layout_width="@dimen/SupportKit_messageAvatar"
+			android:layout_height="@dimen/SupportKit_messageAvatar"
+			android:layout_alignBottom="@+id/contentPanel"/>
+
+	<LinearLayout
+			android:id="@+id/contentPanel"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+			android:layout_below="@+id/time"
+			android:layout_toRightOf="@+id/image"
+			android:orientation="vertical">
+
+		<TextView
+				android:id="@+id/text"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="4dp"
+				android:layout_marginLeft="@dimen/SupportKit_messageArrowWidth"
+				android:textColor="@color/SupportKit_remoteMessageAuthor"
+				android:textSize="@dimen/SupportKit_messageAuthor"/>
+	</LinearLayout>
+
+	<TextView
+			android:id="@+id/media_actions"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentBottom="true"
+			android:layout_alignParentRight="true"
+			android:layout_below="@+id/contentPanel"
+			android:text="@string/SupportKit_errorSendingMessage"
+			android:textColor="@color/SupportKit_header"
+			android:textSize="@dimen/SupportKit_header"/>
+</RelativeLayout>
+
