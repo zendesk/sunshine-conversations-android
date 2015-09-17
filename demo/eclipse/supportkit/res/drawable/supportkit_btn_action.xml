@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- PRESSED -->
+    <item android:state_focused="false" android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/SupportKit_btnActionButtonPressed" />
+            <corners android:radius="@dimen/SupportKit_btnActionRadius" />
+        </shape>
+    </item>
+    <!-- FOCUS -->
+    <item android:state_focused="true" android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/SupportKit_btnActionButtonPressed" />
+            <corners android:radius="@dimen/SupportKit_btnActionRadius" />
+        </shape>
+    </item>
+    <!-- DEFAULT -->
+    <item>
+        <shape>
+            <solid android:color="@color/SupportKit_btnActionButton" />
+            <corners android:radius="@dimen/SupportKit_btnActionRadius" />
+        </shape>
+    </item>
+</selector>

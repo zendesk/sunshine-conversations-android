@@ -1,19 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<dimen name="SupportKit_btnSendHollowBorder">1px</dimen>
-	<dimen name="SupportKit_header">12sp</dimen>
-	<dimen name="SupportKit_inputTextSize">@dimen/SupportKit_messageText</dimen>
-	<dimen name="SupportKit_messageArrowWidth">4dp</dimen>
-	<dimen name="SupportKit_messageArrowHeight">4dp</dimen>
-	<dimen name="SupportKit_messageAuthor">@dimen/SupportKit_header</dimen>
-	<dimen name="SupportKit_messageAvatar">36dp</dimen>
-	<dimen name="SupportKit_messageBorder">1dp</dimen>
-	<dimen name="SupportKit_messageDate">@dimen/SupportKit_header</dimen>
-	<dimen name="SupportKit_messageMargin">65dp</dimen>
-	<dimen name="SupportKit_messagePaddingHorizontal">12dp</dimen>
-	<dimen name="SupportKit_messagePaddingVertical">8dp</dimen>
-	<dimen name="SupportKit_messageRadius">3dp</dimen>
-	<dimen name="SupportKit_messageShadow">2dp</dimen>
-	<dimen name="SupportKit_messageText">15sp</dimen>
+    <dimen name="SupportKit_btnSendHollowBorder">1px</dimen>
+    <dimen name="SupportKit_btnActionHeight">43dp</dimen>
+    <dimen name="SupportKit_btnActionMarginHorizontal">0dp</dimen>
+    <dimen name="SupportKit_btnActionMarginVertical">5dp</dimen>
+    <dimen name="SupportKit_btnActionPaddingHorizontal">15dp</dimen>
+    <dimen name="SupportKit_btnActionPaddingVertical">8dp</dimen>
+    <dimen name="SupportKit_btnActionRadius">3dp</dimen>
+    <dimen name="SupportKit_btnActionText">@dimen/SupportKit_header</dimen>
+    <dimen name="SupportKit_header">12sp</dimen>
+    <dimen name="SupportKit_inputTextSize">@dimen/SupportKit_messageText</dimen>
+    <dimen name="SupportKit_messageArrowWidth">4dp</dimen>
+    <dimen name="SupportKit_messageArrowHeight">4dp</dimen>
+    <dimen name="SupportKit_messageAuthor">@dimen/SupportKit_header</dimen>
+    <dimen name="SupportKit_messageAvatar">36dp</dimen>
+    <dimen name="SupportKit_messageBorder">1dp</dimen>
+    <dimen name="SupportKit_messageDate">@dimen/SupportKit_header</dimen>
+    <dimen name="SupportKit_messageMargin">65dp</dimen>
+    <dimen name="SupportKit_messagePaddingHorizontal">12dp</dimen>
+    <dimen name="SupportKit_messagePaddingVertical">8dp</dimen>
+    <dimen name="SupportKit_messageRadius">3dp</dimen>
+    <dimen name="SupportKit_messageShadow">2dp</dimen>
+    <dimen name="SupportKit_messageText">15sp</dimen>
 </resources>
 
