@@ -1,0 +1,11 @@
+<resources>
+    <string name="SupportKit_activityConversation">چت</string>
+    <string name="SupportKit_startOfConversation">این شروع مکالمه شما با تیم %@ است. ما با شما در تماس خواهیم ماند تا به شما کمک کنیم که از برنامه‌تان بیشترین بهره را ببرید.</string>
+    <string name="SupportKit_welcome">اگر چیزی در ذهن خود دارید، لطفاً برای ما پیامی بگذارید. ما در اسرع وقت به سؤالات، پیشنهادات یا سایر اظهارات شما رسیدگی خواهیم کرد.</string>
+    <string name="SupportKit_messageHint">پیامی را تایپ کنید&#8230;</string>
+    <string name="SupportKit_btnSend">ارسال</string>
+    <string name="SupportKit_errorSendingMessage">پیام تحویل داده نشد. برای ارسال مجدد، ضربه بزنید.</string>
+    <string name="SupportKit_errorCouldNotConnect">اتصال به سرور امکان‌پذیر نبود.</string>
+    <string name="SupportKit_errorUserOffline">عدم اتصال به اینترنت.</string>
+</resources>
+

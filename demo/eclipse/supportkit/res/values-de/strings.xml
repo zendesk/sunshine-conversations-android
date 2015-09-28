@@ -1,0 +1,11 @@
+<resources>
+    <string name="SupportKit_activityConversation">Nachrichten</string>
+    <string name="SupportKit_startOfConversation">Dies ist der Start deines Gesprächs mit dem Team %@. Wir werden in Kontakt bleiben, um dir dabei zu helfen, das Beste aus deiner App herauszuholen.</string>
+    <string name="SupportKit_welcome">Zögere dich nicht, uns eine Nachricht über alles, was dir am Herzen liegt, hinterzulassen. Wir antworten auf deine Fragen, Anregungen oder sonstige Wünsche möglichst schnell.</string>
+    <string name="SupportKit_messageHint">Nachricht tippen&#8230;</string>
+    <string name="SupportKit_btnSend">Gesendet</string>
+    <string name="SupportKit_errorSendingMessage">Nachricht wurde nicht geliefert. Antippen, um erneut zu versuchen.</string>
+    <string name="SupportKit_errorCouldNotConnect">Die Verbindung mit dem Server war nicht möglich.</string>
+    <string name="SupportKit_errorUserOffline">Keine Internetverbindung.</string>
+</resources>
+

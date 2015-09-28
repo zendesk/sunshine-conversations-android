@@ -1,0 +1,11 @@
+<resources>
+    <string name="SupportKit_activityConversation">الدردشة</string>
+    <string name="SupportKit_startOfConversation">هذه هي بداية محادثتك مع فريق %@. سوف نبقى على اتصال معك لتتمكن من تحقيق الاستفادة القصوى من التطبيق.</string>
+    <string name="SupportKit_welcome">اترك لنا رسالة إن أردت، عن أي شيء يدور في خلدك. سوف نرد على أسئلتك أو اقتراحاتك أو أي شيء آخر في أقرب وقت نستطيع.</string>
+    <string name="SupportKit_messageHint">اكتب رسالة&#8230;</string>
+    <string name="SupportKit_btnSend">إرسال</string>
+    <string name="SupportKit_errorSendingMessage">تعذَّر تسليم الرسالة. انقر لإعادة المحاولة.</string>
+    <string name="SupportKit_errorCouldNotConnect">تعذَّر الاتصال بالملقم.</string>
+    <string name="SupportKit_errorUserOffline">لا يوجد اتصال بالإنترنت.</string>
+</resources>
+
