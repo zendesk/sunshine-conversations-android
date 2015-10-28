@@ -44,3 +44,9 @@ ConversationActivity.show(this);
 ```
 
 For Eclipse and all the details see our [docs and full install guide](http://docs.smooch.io/android/).
+
+# Upgrade guide to Smooch
+
+SupportKit is now Smooch!
+
+For a list of changes and a guide to upgrade, refer to our [2.0.0 release](https://github.com/smooch/smooch-android/releases/tag/2.0.0).
