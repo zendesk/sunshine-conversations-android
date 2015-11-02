@@ -20,7 +20,7 @@
     <ImageView
             android:layout_width="169dp"
             android:layout_height="153dp"
-            android:src="@drawable/supportkit_logo"
+            android:src="@drawable/smooch_logo"
             android:paddingTop="10dp"
             android:scaleType="centerCrop"
             android:layout_alignParentTop="true"
@@ -30,7 +30,7 @@
     <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="@string/SupportKit_demo_welcome"
+            android:text="@string/Smooch_demo_welcome"
             android:id="@+id/text_title"
             android:layout_gravity="center_horizontal"
             android:textAlignment="center"
@@ -43,7 +43,7 @@
     <TextView
             android:layout_width="313dp"
             android:layout_height="wrap_content"
-            android:text="@string/SupportKit_demo_intro"
+            android:text="@string/Smooch_demo_intro"
             android:id="@+id/text_intro"
             android:layout_gravity="center_horizontal"
             android:textAlignment="center"
@@ -54,7 +54,7 @@
     <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/SupportKit_demo_show_conversation"
+            android:text="@string/Smooch_demo_show_conversation"
             android:id="@+id/button_help"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="25dp"
@@ -62,20 +62,7 @@
             android:paddingTop="15dp"
             android:paddingRight="25dp"
             android:paddingBottom="15dp"
-            android:background="@color/SupportKit_accent"
+            android:background="@color/Smooch_accent"
             android:textColor="#ffffff"/>
-
-    <TextView android:layout_width="221dp"
-              android:layout_height="wrap_content"
-              android:text="@string/SupportKit_demo_signup"
-              android:id="@+id/textView_signup"
-              android:layout_gravity="center_horizontal"
-              android:textAlignment="center"
-              android:gravity="center_horizontal"
-              android:textSize="10dp"
-              android:autoLink="web"
-              android:textColorLink="@color/SupportKit_accent"
-              android:textColor="#616161"
-              android:layout_marginTop="10dp"/>
 
 </LinearLayout>

@@ -11,6 +11,6 @@ bin
 gen
 nbandroid
 *.class
-compat/supportkit/libs/core-*.jar
-compat/supportkit/libs/ui-*.jar
-compat/supportkit/res
+compat/smooch/libs/core-*.jar
+compat/smooch/libs/ui-*.jar
+compat/smooch/res

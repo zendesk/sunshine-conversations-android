@@ -15,7 +15,7 @@
               android:layout_width="@dimen/navigation_drawer_width"
               android:layout_height="match_parent"
               android:layout_gravity="start"
-              android:name="io.supportkit.demoapp.NavigationDrawerFragment"
+              android:name="io.smooch.demoapp.NavigationDrawerFragment"
               tools:layout="@layout/fragment_navigation_drawer"/>
 
 </android.support.v4.widget.DrawerLayout>

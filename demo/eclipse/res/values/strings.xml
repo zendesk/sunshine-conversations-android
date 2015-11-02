@@ -1,25 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="app_name">Demo App</string>
-    <string name="title_section1">SupportKit</string>
+    <string name="title_section1">Smooch</string>
     <string name="title_section2">Conversation</string>
     <string name="title_section3">Whispers</string>
     <string name="title_section4">Settings</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
-    <string name="SupportKit_demo_welcome">Welcome to SupportKit</string>
-    <string name="SupportKit_demo_intro">SupportKit adds beautifully simple messaging to your app to keep your users engaged and coming back. Try out this demo app to see what it can do for you.</string>
-    <string name="SupportKit_demo_show_conversation">Show Conversation</string>
-    <string name="SupportKit_demo_signup">To sign up, go to https://app.supportkit.io</string>
+    <string name="Smooch_demo_welcome">Welcome to Smooch</string>
+    <string name="Smooch_demo_show_conversation">Smooch Me</string>
+    <string name="Smooch_demo_intro">Smooch lets you build rich app-to-users messaging inside your apps and websites. Try out this demo app to see what it can do for you.</string>
+    <string name="Smooch_demo_whispers_intro">Whispers allow you to send automated, targeted messages to your users that look and feel like personal notes from members of your team.</string>
+    <string name="Smooch_demo_whispers_source">Remember to check sources to learn how to use Whispers.</string>
+    <string name="Smooch_demo_whispers_reset">Note: Whispers are only sent once per user.</string>
 
-    <string name="SupportKit_demo_whispers_intro">Whispers allow you to send automated, targeted messages to your users that look and feel like personal notes from members of your team.</string>
-    <string name="SupportKit_demo_whispers_source">Remember to check sources to learn how to use Whispers.</string>
-    <string name="SupportKit_demo_whispers_reset">Note: Whispers are only sent once per user.</string>
-
-    <string name="SupportKit_demo_apptoken">You can set your own app token if you want to have a conversation with yourself.</string>
-    <string name="SupportKit_demo_whispers_broken">Note: If you put your own app token, our demo Whispers will stop working.</string>
-
-
+    <string name="Smooch_demo_apptoken">You can set your own app token if you want to have a conversation with yourself.</string>
+    <string name="Smooch_demo_whispers_broken">Note: If you put your own app token, our demo Whispers will stop working.</string>
 </resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="Smooch_settings_hoursBetweenTimestamps">6</integer>
+    <integer name="Smooch_settings_inputMaxLines">5</integer>
+    <integer name="Smooch_settings_notificationId">1</integer>
+    <string name="Smooch_settings_notificationTag">Smooch</string>
+    <string name="Smooch_settings_timestampFormat">MMMM d, h:mm a</string>
+    <item name="Smooch_lineSpacingMultiplier" format="float" type="dimen">1.25</item>
+</resources>
+

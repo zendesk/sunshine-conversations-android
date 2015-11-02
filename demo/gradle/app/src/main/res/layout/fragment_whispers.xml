@@ -32,7 +32,7 @@
     <TextView
             android:layout_width="325dp"
             android:layout_height="wrap_content"
-            android:text="@string/SupportKit_demo_whispers_intro"
+            android:text="@string/Smooch_demo_whispers_intro"
             android:id="@+id/text_intro"
             android:layout_gravity="center_horizontal"
             android:textAlignment="center"
@@ -43,7 +43,7 @@
     <TextView
             android:layout_width="313dp"
             android:layout_height="wrap_content"
-            android:text="@string/SupportKit_demo_whispers_source"
+            android:text="@string/Smooch_demo_whispers_source"
             android:id="@+id/text_source"
             android:layout_gravity="center_horizontal"
             android:textAlignment="center"
@@ -62,7 +62,7 @@
             android:paddingTop="15dp"
             android:paddingRight="25dp"
             android:paddingBottom="15dp"
-            android:background="@color/SupportKit_accent"
+            android:background="@color/Smooch_accent"
             android:textColor="#ffffff"
             android:layout_marginBottom="15dp" android:layout_marginTop="15dp"/>
 
@@ -76,7 +76,7 @@
             android:paddingTop="15dp"
             android:paddingRight="25dp"
             android:paddingBottom="15dp"
-            android:background="@color/SupportKit_accent"
+            android:background="@color/Smooch_accent"
             android:textColor="#ffffff"
             android:layout_marginBottom="5dp"/>
 
@@ -92,12 +92,12 @@
     <TextView
             android:layout_width="236dp"
             android:layout_height="wrap_content"
-            android:text="@string/SupportKit_demo_whispers_reset"
+            android:text="@string/Smooch_demo_whispers_reset"
             android:id="@+id/text_reset"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:layout_gravity="center_horizontal"
             android:textAlignment="center"
-            android:textColorLink="@color/SupportKit_accent"
+            android:textColorLink="@color/Smooch_accent"
             android:gravity="center_horizontal"
             android:textColor="#616161"
             android:textSize="10dp"

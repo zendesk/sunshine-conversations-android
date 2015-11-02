@@ -6,7 +6,7 @@ android {
     buildToolsVersion "22.0.1"
 
     defaultConfig {
-        applicationId "io.supportkit.demoapp"
+        applicationId "io.smooch.demoapp"
         minSdkVersion 15
         targetSdkVersion 22
         versionCode 1
@@ -24,12 +24,12 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:22.2.1'
 
-    // Add SupportKit dependencies, you might already have them
+    // Add Smooch dependencies, you might already have them
     compile 'com.google.android.gms:play-services-gcm:7.5.0'
     compile 'com.google.code.gson:gson:2.3.1'
     compile 'com.squareup.okhttp:okhttp:2.4.0'
 
-    // Add SupportKit core and ui
-    compile 'io.supportkit:core:latest.release'
-    compile 'io.supportkit:ui:latest.release'
+    // Add Smooch core and ui
+    compile 'io.smooch:core:latest.release'
+    compile 'io.smooch:ui:latest.release'
 }

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Smooch" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/Theme.Smooch.ActionBar</item>
+        <item name="colorAccent">@color/Smooch_accent</item>
+        <item name="colorPrimary">@color/Smooch_accent</item>
+        <item name="colorPrimaryDark">@color/Smooch_accentDark</item>
+    </style>
+
+    <style name="Theme.Smooch.ActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="background">@color/Smooch_accent</item>
+    </style>
+</resources>
+

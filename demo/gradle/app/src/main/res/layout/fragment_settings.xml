@@ -31,7 +31,7 @@
     <TextView
             android:layout_width="313dp"
             android:layout_height="wrap_content"
-            android:text="@string/SupportKit_demo_apptoken"
+            android:text="@string/Smooch_demo_apptoken"
             android:id="@+id/text_intro"
             android:layout_gravity="center_horizontal"
             android:textAlignment="center"
@@ -42,7 +42,7 @@
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/SupportKit_demo_whispers_broken"
+            android:text="@string/Smooch_demo_whispers_broken"
             android:id="@+id/text_source"
             android:layout_gravity="center_horizontal"
             android:textAlignment="center"
@@ -72,7 +72,7 @@
     <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Re-initialize SupportKit"
+            android:text="Re-initialize Smooch"
             android:id="@+id/button_init"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="25dp"
@@ -80,7 +80,7 @@
             android:paddingTop="15dp"
             android:paddingRight="25dp"
             android:paddingBottom="15dp"
-            android:background="@color/SupportKit_accent"
+            android:background="@color/Smooch_accent"
             android:textColor="#ffffff"/>
 
 </LinearLayout>

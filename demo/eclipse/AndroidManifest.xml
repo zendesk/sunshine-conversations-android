@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="io.supportkit.demoapp"
+    package="io.smooch.demoapp"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -8,7 +8,7 @@
         android:minSdkVersion="15"
         android:targetSdkVersion="22" />
     
-    <!-- Adding SupportKit permissions -->
+    <!-- Adding Smooch permissions -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <uses-permission android:name="android.permission.INTERNET"/>
 	<uses-permission android:name="android.permission.VIBRATE"/>
@@ -17,21 +17,21 @@
     
     <!-- Adding some permissions for push (optional) -->
     <permission
-            android:name="io.supportkit.demoapp.permission.C2D_MESSAGE"
+            android:name="io.smooch.demoapp.permission.C2D_MESSAGE"
             android:protectionLevel="signature"/>
 
     <uses-permission android:name="android.permission.WAKE_LOCK"/>
-    <uses-permission android:name="io.supportkit.demoapp.permission.C2D_MESSAGE"/>
+    <uses-permission android:name="io.smooch.demoapp.permission.C2D_MESSAGE"/>
     <!-- /permissions -->
 
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:name="io.supportkit.demoapp.DemoApplication"
+        android:name="io.smooch.demoapp.DemoApplication"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".MainActivity"
+            android:name="io.smooch.demoapp.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -41,16 +41,16 @@
         </activity>
         
         <!-- Add ConversationActivity, core services -->
-        <activity android:name="io.supportkit.ui.ConversationActivity" android:theme="@style/Theme.SupportKit" />
+        <activity android:name="io.smooch.ui.ConversationActivity" android:theme="@style/Theme.Smooch" />
         
-        <service android:name="io.supportkit.core.service.SupportKitService"/>
-        <service android:name="io.supportkit.core.GcmInstanceIDListenerService" android:exported="false">
+        <service android:name="io.smooch.core.service.Smooch.Service"/>
+        <service android:name="io.smooch.core.GcmInstanceIDListenerService" android:exported="false">
             <intent-filter>
                 <action android:name="com.google.android.gms.iid.InstanceID"/>
             </intent-filter>
         </service>
-        <service android:name="io.supportkit.core.GcmRegistrationIntentService" android:exported="false"/>
-        <service android:name="io.supportkit.core.GcmService" android:exported="false">
+        <service android:name="io.smooch.core.GcmRegistrationIntentService" android:exported="false"/>
+        <service android:name="io.smooch.core.GcmService" android:exported="false">
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
             </intent-filter>
@@ -64,10 +64,10 @@
         
         <!-- Add notification receiver for in-app and regular notifications -->
         <receiver
-				android:name="io.supportkit.ui.notification.NotificationReceiver"
+				android:name="io.smooch.ui.notification.NotificationReceiver"
 				android:exported="false">
 			<intent-filter>
-				<action android:name="io.supportkit.NOTIFICATION"/>
+				<action android:name="io.smooch.NOTIFICATION"/>
 			</intent-filter>
 		</receiver>
 		<!-- /receiver -->
@@ -79,7 +79,7 @@
                 android:permission="com.google.android.c2dm.permission.SEND">
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
-                <category android:name="io.supportkit.demoapp"/>
+                <category android:name="io.smooch.demoapp"/>
             </intent-filter>
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.REGISTRATION"/>

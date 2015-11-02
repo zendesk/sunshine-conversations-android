@@ -1,1 +1,73 @@
-{"project_info":{"project_id":"supportkit-demo-app","project_number":"248785551671","name":"SupportKit Demo App"},"client":[{"client_info":{"client_id":"android:io.supportkit.demoapp","client_type":1,"android_client_info":{"package_name":"io.supportkit.demoapp"}},"oauth_client":[],"services":{"analytics_service":{"status":1},"cloud_messaging_service":{"status":2,"apns_config":[]},"appinvite_service":{"status":1,"other_platform_oauth_client":[]},"google_signin_service":{"status":1},"ads_service":{"status":1}}}],"ARTIFACT_VERSION":"1"}
+{
+  "project_info": {
+    "project_id": "smooch-1101",
+    "project_number": "16079555520",
+    "name": "Smooch"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:16079555520:android:b569807f768ed9a1",
+        "client_id": "android:io.smooch.shellapp",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "io.smooch.shellapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 2,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 1
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:16079555520:android:40f4ec773042fec8",
+        "client_id": "android:io.smooch.demoapp",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "io.smooch.demoapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 2,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 1
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}

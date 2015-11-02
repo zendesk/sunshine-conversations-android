@@ -1,7 +1,7 @@
 <resources>
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <item name="colorAccent">@color/SupportKit_accent</item>
-        <item name="colorPrimary">@color/SupportKit_accent</item>
-        <item name="colorPrimaryDark">@color/SupportKit_accentDark</item>
+        <item name="colorAccent">@color/Smooch_accent</item>
+        <item name="colorPrimary">@color/Smooch_accent</item>
+        <item name="colorPrimaryDark">@color/Smooch_accentDark</item>
     </style>
 </resources>
