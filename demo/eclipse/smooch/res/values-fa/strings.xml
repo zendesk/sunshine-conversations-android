@@ -1,6 +1,6 @@
 <resources>
     <string name="Smooch_activityConversation">چت</string>
-    <string name="Smooch_startOfConversation">این شروع مکالمه شما با تیم %@ است. ما با شما در تماس خواهیم ماند تا به شما کمک کنیم که از برنامه‌تان بیشترین بهره را ببرید.</string>
+    <string name="Smooch_startOfConversation">این شروع مکالمه شما با تیم %1$s است. ما با شما در تماس خواهیم ماند تا به شما کمک کنیم که از برنامه‌تان بیشترین بهره را ببرید.</string>
     <string name="Smooch_welcome">اگر چیزی در ذهن خود دارید، لطفاً برای ما پیامی بگذارید. ما در اسرع وقت به سؤالات، پیشنهادات یا سایر اظهارات شما رسیدگی خواهیم کرد.</string>
     <string name="Smooch_messageHint">پیامی را تایپ کنید&#8230;</string>
     <string name="Smooch_btnSend">ارسال</string>

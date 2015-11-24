@@ -1,6 +1,6 @@
 <resources>
     <string name="Smooch_activityConversation">Nachrichten</string>
-    <string name="Smooch_startOfConversation">Dies ist der Start deines Gesprächs mit dem Team %@. Wir werden in Kontakt bleiben, um dir dabei zu helfen, das Beste aus deiner App herauszuholen.</string>
+    <string name="Smooch_startOfConversation">Dies ist der Start deines Gesprächs mit dem Team %1$s. Wir werden in Kontakt bleiben, um dir dabei zu helfen, das Beste aus deiner App herauszuholen.</string>
     <string name="Smooch_welcome">Zögere dich nicht, uns eine Nachricht über alles, was dir am Herzen liegt, hinterzulassen. Wir antworten auf deine Fragen, Anregungen oder sonstige Wünsche möglichst schnell.</string>
     <string name="Smooch_messageHint">Nachricht tippen&#8230;</string>
     <string name="Smooch_btnSend">Gesendet</string>

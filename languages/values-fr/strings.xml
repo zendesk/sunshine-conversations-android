@@ -1,6 +1,6 @@
 <resources>
     <string name="Smooch_activityConversation">Discussion</string>
-    <string name="Smooch_startOfConversation">Ceci est le début de votre conversation avec l\'équipe de %@. Nous garderons le contact pour vous aider à tirer le maximum de votre appli.</string>
+    <string name="Smooch_startOfConversation">Ceci est le début de votre conversation avec l\'équipe de %1$s. Nous garderons le contact pour vous aider à tirer le maximum de votre appli.</string>
     <string name="Smooch_welcome">N\'hésitez pas à nous envoyer un message à propos de tout ce qui vous traverse l\'esprit. Nous répondrons à vos questions, vos suggestions ou toute autre chose aussi vite que possible.</string>
     <string name="Smooch_messageHint">Rédigez un message&#8230;</string>
     <string name="Smooch_btnSend">Envoyer</string>

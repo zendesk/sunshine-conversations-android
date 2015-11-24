@@ -1,0 +1,11 @@
+<resources>
+    <string name="Smooch_activityConversation">Messaggi</string>
+    <string name="Smooch_startOfConversation">Questo è l\’inizio della tua conversazione con la squadra %1$s. Staremo in contatto con te per aiutarti ad ottenere quanto più possibile dalla tua app.</string>
+    <string name="Smooch_welcome">Sentiti libero di inviarci un messaggio su qualsiasi argomento ti venga in mente. Risponderemo alle tue domande, ai tuoi suggerimenti e qualsiasi altra cosa il prima possibile.</string>
+    <string name="Smooch_messageHint">Scrivi un messaggio&#8230;</string>
+    <string name="Smooch_btnSend">Invia</string>
+    <string name="Smooch_errorSendingMessage">Messaggio non consegnato. Premi per riprovare.</string>
+    <string name="Smooch_errorCouldNotConnect">Impossibile connettersi al server.</string>
+    <string name="Smooch_errorUserOffline">Nessuna connessione a internet.</string>
+</resources>
+

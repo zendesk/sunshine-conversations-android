@@ -1,6 +1,6 @@
 <resources>
     <string name="Smooch_activityConversation">Viestit</string>
-    <string name="Smooch_startOfConversation">Tästä voit aloittaa keskustelun %@ tiimin kanssa. Olemme sinuun yhteydessä saadaksesi kaiken irti sovelluksestasi.</string>
+    <string name="Smooch_startOfConversation">Tästä voit aloittaa keskustelun %1$s tiimin kanssa. Olemme sinuun yhteydessä saadaksesi kaiken irti sovelluksestasi.</string>
     <string name="Smooch_welcome">Jätä meille viesti jos jokin asia vaivaa mieltäsi. Vastaamme kysymyksiisi, ehdotuksiisi ja muihin asioihisi heti kun voimme.</string>
     <string name="Smooch_messageHint">Kirjoita viesti&#8230;</string>
     <string name="Smooch_btnSend">Lähetä</string>
