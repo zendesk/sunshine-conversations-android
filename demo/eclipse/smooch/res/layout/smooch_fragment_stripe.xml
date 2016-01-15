@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      xmlns:app="http://schemas.android.com/apk/res-auto"
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:layout_gravity="center_horizontal"
+                      android:layout_marginTop="20dp"
+                      android:background="#ffffff"
+                      android:clickable="true"
+                      android:gravity="center_horizontal"
+                      android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/dollarAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/Smooch_inputTextBackground"
+                android:ellipsize="end"
+                android:fontFamily="sans-serif-light"
+                android:maxLines="1"
+                android:textColor="@color/Smooch_inputTextColor"
+                android:textSize="80sp"/>
+
+            <com.devmarvel.creditcardentry.library.CreditCardForm
+                android:id="@+id/creditCardForm"
+                android:layout_width="313dp"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                app:card_number_hint="1234 5678 1234 5678"
+                app:hint_text_color="#eeeeee"
+                app:include_zip="false"
+                app:input_background="@drawable/credit_background"/>
+
+            <TextView
+                android:id="@+id/creditMessage"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:layout_marginTop="5dp"
+                android:lineSpacingExtra="3dp"
+                android:gravity="center"
+                android:textColor="@color/Smooch_header"/>
+
+            <TextView
+                android:id="@+id/errorMessage"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:layout_marginTop="5dp"
+                android:lineSpacingExtra="3dp"
+                android:gravity="center"
+                android:text="@string/Smooch_creditErrorMessage"
+                android:textColor="@color/text_failure_color"
+                android:visibility="gone"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/closeButton"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="15dp"
+        android:padding="15dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/creditCardBuy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_white"
+            android:backgroundTint="@color/Smooch_accent"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:padding="20dp"
+            android:text="@string/Smooch_btnPayNow"
+            android:textSize="15sp"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:visibility="gone"/>
+
+        <ProgressBar
+            android:id="@+id/loadingSpinner"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:visibility="gone"/>
+    </RelativeLayout>
+</RelativeLayout>

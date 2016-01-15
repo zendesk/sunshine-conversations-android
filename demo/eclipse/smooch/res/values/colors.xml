@@ -30,5 +30,8 @@
     <color name="Smooch_userMessageFailedBackground">@color/Smooch_accentFailure</color>
     <color name="Smooch_userMessageFailedBorder">@color/Smooch_accentFailure</color>
     <color name="Smooch_userMessageText">#ffffff</color>
+
+    <color name="text_helper_color">#a8a8a8</color>
+    <color name="text_failure_color">#ff2851</color>
 </resources>
 

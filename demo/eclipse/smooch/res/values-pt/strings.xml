@@ -5,7 +5,7 @@
     <string name="Smooch_messageHint">Digite uma mensagem&#8230;</string>
     <string name="Smooch_btnSend">Enviar</string>
     <string name="Smooch_errorSendingMessage">A mensagem não foi entregue. Toque para tentar novamente.</string>
-    <string name="Smooch_errorCouldNotConnect">não foi possível ligar ao servidor.</string>
+    <string name="Smooch_errorCouldNotConnect">Não foi possível ligar ao servidor.</string>
     <string name="Smooch_errorUserOffline">Sem ligação à Internet.</string>
 </resources>
 
