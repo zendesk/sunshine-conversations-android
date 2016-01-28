@@ -3,21 +3,21 @@
     <!-- PRESSED -->
     <item android:state_focused="false" android:state_pressed="true">
         <shape>
-            <solid android:color="@color/Smooch_btnActionButtonPressed" />
+            <solid android:color="@color/Smooch_accentDark" />
             <corners android:radius="@dimen/Smooch_btnActionRadius" />
         </shape>
     </item>
     <!-- FOCUS -->
     <item android:state_focused="true" android:state_pressed="true">
         <shape>
-            <solid android:color="@color/Smooch_btnActionButtonPressed" />
+            <solid android:color="@color/Smooch_accentDark" />
             <corners android:radius="@dimen/Smooch_btnActionRadius" />
         </shape>
     </item>
     <!-- DEFAULT -->
     <item>
         <shape>
-            <solid android:color="@color/Smooch_btnActionButton" />
+            <solid android:color="@color/Smooch_accent" />
             <corners android:radius="@dimen/Smooch_btnActionRadius" />
         </shape>
     </item>

@@ -2,6 +2,7 @@
 <resources>
     <color name="Smooch_accent">#9200aa</color>
     <color name="Smooch_accentDark">#76008a</color>
+    <color name="Smooch_accentDarker">#66008a</color>
     <color name="Smooch_accentLight">#be7cca</color>
     <color name="Smooch_accentFailure">#c178cd</color>
 

@@ -2,6 +2,8 @@
 <resources>
 
     <style name="Theme.Smooch" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:windowActionBarOverlay">true</item>
         <item name="actionBarStyle">@style/Theme.Smooch.ActionBar</item>
         <item name="colorAccent">@color/Smooch_accent</item>
         <item name="colorPrimary">@color/Smooch_accent</item>

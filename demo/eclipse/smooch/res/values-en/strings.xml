@@ -8,7 +8,10 @@
     <string name="Smooch_errorCouldNotConnect">Could not connect to server.</string>
     <string name="Smooch_errorUserOffline">No Internet connection.</string>
     <string name="Smooch_creditMessage">Enter your credit card to send %1$s securely to %2$s.</string>
+    <string name="Smooch_savedCreditMessage">You\'re about to send %1$s securely to %2$s.</string>
     <string name="Smooch_creditErrorMessage">An error occurred while processing the card. Try again or use a different card.</string>
     <string name="Smooch_btnPayNow">Pay Now</string>
+    <string name="Smooch_btnPaymentCompleted">Payment Completed</string>
+    <string name="Smooch_btnChangeCard">Change Credit Card</string>
 </resources>
 

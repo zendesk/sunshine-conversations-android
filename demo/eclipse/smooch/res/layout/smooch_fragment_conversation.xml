@@ -1,8 +1,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:clipChildren="false"
-    android:orientation="vertical">
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:clipChildren="false"
+              android:orientation="vertical">
 
     <TextView
         android:id="@+id/Smooch_serverBanner"
@@ -17,7 +17,7 @@
         android:text="@string/Smooch_errorCouldNotConnect"
         android:textColor="@color/Smooch_header"
         android:textSize="@dimen/Smooch_header"
-        android:visibility="visible" />
+        android:visibility="visible"/>
 
     <ListView
         android:id="@+id/scrollView"
@@ -28,7 +28,8 @@
         android:divider="@null"
         android:dividerHeight="0dp"
         android:listSelector="@android:color/transparent"
-        android:transcriptMode="alwaysScroll" />
+        android:paddingTop="?actionBarSize"
+        android:transcriptMode="alwaysScroll"/>
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -56,7 +57,7 @@
             android:paddingTop="4dp"
             android:textColor="@color/Smooch_inputTextColor"
             android:textColorHint="@color/Smooch_inputTextColorHint"
-            android:textSize="@dimen/Smooch_inputTextSize" />
+            android:textSize="@dimen/Smooch_inputTextSize"/>
 
         <ImageButton
             android:id="@+id/Smooch_btnSend"
@@ -66,7 +67,7 @@
             android:layout_centerVertical="true"
             android:background="@android:color/transparent"
             android:contentDescription="@string/Smooch_btnSend"
-            android:src="@drawable/smooch_btn_send" />
+            android:src="@drawable/smooch_btn_send"/>
 
         <View
             android:id="@+id/Smooch_btnSendHollow"
@@ -75,7 +76,7 @@
             android:layout_alignLeft="@+id/Smooch_btnSend"
             android:layout_alignTop="@+id/Smooch_btnSend"
             android:background="@drawable/smooch_bg_send_hollow"
-            android:visibility="invisible" />
+            android:visibility="invisible"/>
 
         <View
             android:id="@+id/Smooch_btnSendHollowBorder"
@@ -84,7 +85,7 @@
             android:layout_alignLeft="@+id/Smooch_btnSend"
             android:layout_alignTop="@+id/Smooch_btnSend"
             android:background="@drawable/smooch_bg_send_hollow_border"
-            android:visibility="invisible" />
+            android:visibility="invisible"/>
     </RelativeLayout>
 </LinearLayout>
 
