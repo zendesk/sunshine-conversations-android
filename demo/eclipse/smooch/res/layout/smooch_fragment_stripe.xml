@@ -3,6 +3,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_alignParentBottom="true"
+                android:layout_gravity="bottom"
                 android:background="#ffffff"
                 android:orientation="vertical">
 
@@ -60,9 +61,9 @@
 
                     <ImageView
                         android:id="@+id/savedFormImage"
-                        android:layout_marginTop="2.5dp"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2.5dp"/>
 
                     <TextView
                         android:id="@+id/savedFormText"
@@ -70,8 +71,8 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
                         android:layout_marginTop="5dp"
-                        android:textSize="19sp"
-                        android:textColor="#000000"/>
+                        android:textColor="#000000"
+                        android:textSize="19sp"/>
                 </LinearLayout>
 
                 <Button
@@ -82,8 +83,8 @@
                     android:gravity="center"
                     android:text="@string/Smooch_btnChangeCard"
                     android:textAllCaps="false"
-                    android:textSize="15sp"
-                    android:textColor="@color/Smooch_accent"/>
+                    android:textColor="@color/Smooch_accent"
+                    android:textSize="15sp"/>
             </LinearLayout>
 
             <TextView
@@ -94,8 +95,8 @@
                 android:layout_marginTop="5dp"
                 android:gravity="center"
                 android:lineSpacingExtra="3dp"
-                android:textSize="15sp"
-                android:textColor="@color/Smooch_header"/>
+                android:textColor="@color/Smooch_header"
+                android:textSize="15sp"/>
 
             <TextView
                 android:id="@+id/savedCreditMessage"
