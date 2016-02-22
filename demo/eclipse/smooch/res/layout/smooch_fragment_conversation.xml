@@ -4,6 +4,11 @@
               android:clipChildren="false"
               android:orientation="vertical">
 
+    <android.support.v4.widget.Space
+        android:id="@+id/Smooch_actionBarSpace"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"/>
+
     <TextView
         android:id="@+id/Smooch_serverBanner"
         android:layout_width="match_parent"
@@ -28,7 +33,6 @@
         android:divider="@null"
         android:dividerHeight="0dp"
         android:listSelector="@android:color/transparent"
-        android:paddingTop="?actionBarSize"
         android:transcriptMode="alwaysScroll"/>
 
     <RelativeLayout
