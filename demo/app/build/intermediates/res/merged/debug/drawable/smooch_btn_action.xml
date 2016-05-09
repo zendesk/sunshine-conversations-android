@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- PRESSED -->
+    <item android:state_focused="false" android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/Smooch_btnActionButtonPressed" />
+            <corners android:radius="@dimen/Smooch_btnActionRadius" />
+        </shape>
+    </item>
+    <!-- FOCUS -->
+    <item android:state_focused="true" android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/Smooch_btnActionButtonPressed" />
+            <corners android:radius="@dimen/Smooch_btnActionRadius" />
+        </shape>
+    </item>
+    <!-- DEFAULT -->
+    <item>
+        <shape>
+            <solid android:color="@color/Smooch_btnActionButton" />
+            <corners android:radius="@dimen/Smooch_btnActionRadius" />
+        </shape>
+    </item>
+</selector>
+<!-- From: file:/Users/julian/src/smooch-android/ui/src/main/res/drawable/smooch_btn_action.xml --><!-- From: file:/Users/julian/src/smooch-android/demo/gradle/app/build/intermediates/exploded-aar/io.smooch/ui/2.0.0/res/drawable/smooch_btn_action.xml -->

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="8dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp">
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+        android:paddingBottom="16dp"
+        android:paddingTop="16dp"
+        android:textAllCaps="true"
+        android:textColor="@color/Smooch_messageDate"
+        android:textSize="@dimen/Smooch_messageDate" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="@dimen/Smooch_messageAvatar"
+        android:layout_height="@dimen/Smooch_messageAvatar"
+        android:layout_alignBottom="@+id/contentPanel" />
+
+    <LinearLayout
+        android:id="@+id/contentPanel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/time"
+        android:layout_toRightOf="@+id/image"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="@dimen/Smooch_messageArrowWidth"
+            android:textColor="@color/Smooch_remoteMessageAuthor"
+            android:textSize="@dimen/Smooch_messageAuthor" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/media_actions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/contentPanel"
+        android:text="@string/Smooch_errorSendingMessage"
+        android:textColor="@color/Smooch_header"
+        android:textSize="@dimen/Smooch_header" />
+</RelativeLayout>
+
+<!-- From: file:/Users/julian/src/smooch-android/ui/src/main/res/layout/smooch_list_message_item.xml -->

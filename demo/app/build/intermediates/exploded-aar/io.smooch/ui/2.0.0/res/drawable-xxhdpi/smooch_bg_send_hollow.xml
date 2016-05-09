@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+		android:shape="oval">
+	<solid
+		android:color="@color/Smooch_btnSendHollow"/>
+</shape>
+
+<!-- From: file:/Users/julian/src/smooch-android/ui/src/main/res/drawable-xxhdpi/smooch_bg_send_hollow.xml -->

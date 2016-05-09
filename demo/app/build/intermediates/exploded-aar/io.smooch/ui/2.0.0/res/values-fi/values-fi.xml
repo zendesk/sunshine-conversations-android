@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/julian/src/smooch-android/ui/src/main/res/values-fi/strings.xml -->
+    <eat-comment/>
+    <string name="Smooch_activityConversation">Viestit</string>
+    <string name="Smooch_btnSend">Lähetä</string>
+    <string name="Smooch_errorCouldNotConnect">Palvelimeen ei voitu yhdistää.</string>
+    <string name="Smooch_errorSendingMessage">Viestiä ei voitu lähettää. Kosketa yrittääksesi uudelleen.</string>
+    <string name="Smooch_errorUserOffline">Ei Internet yhteyttä.</string>
+    <string name="Smooch_messageHint">Kirjoita viesti…</string>
+    <string name="Smooch_startOfConversation">Tästä voit aloittaa keskustelun %1$s tiimin kanssa. Olemme sinuun yhteydessä saadaksesi kaiken irti sovelluksestasi.</string>
+    <string name="Smooch_welcome">Jätä meille viesti jos jokin asia vaivaa mieltäsi. Vastaamme kysymyksiisi, ehdotuksiisi ja muihin asioihisi heti kun voimme.</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/julian/src/smooch-android/ui/src/main/res/values-ar/strings.xml -->
+    <eat-comment/>
+    <string name="Smooch_activityConversation">الدردشة</string>
+    <string name="Smooch_btnSend">إرسال</string>
+    <string name="Smooch_errorCouldNotConnect">تعذَّر الاتصال بالملقم.</string>
+    <string name="Smooch_errorSendingMessage">تعذَّر تسليم الرسالة. انقر لإعادة المحاولة.</string>
+    <string name="Smooch_errorUserOffline">لا يوجد اتصال بالإنترنت.</string>
+    <string name="Smooch_messageHint">اكتب رسالة…</string>
+    <string name="Smooch_startOfConversation">هذه هي بداية محادثتك مع فريق %1$s. سوف نبقى على اتصال معك لتتمكن من تحقيق الاستفادة القصوى من التطبيق.</string>
+    <string name="Smooch_welcome">اترك لنا رسالة إن أردت، عن أي شيء يدور في خلدك. سوف نرد على أسئلتك أو اقتراحاتك أو أي شيء آخر في أقرب وقت نستطيع.</string>
+</resources>

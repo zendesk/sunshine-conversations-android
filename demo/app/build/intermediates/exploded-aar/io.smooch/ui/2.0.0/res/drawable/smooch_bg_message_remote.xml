@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+	<item
+			android:bottom="0dp"
+			android:left="@dimen/Smooch_messageArrowWidth"
+			android:right="0dp"
+			android:top="0dp">
+		<shape android:shape="rectangle">
+			<corners
+					android:bottomLeftRadius="0dp"
+					android:bottomRightRadius="@dimen/Smooch_messageRadius"
+					android:topLeftRadius="@dimen/Smooch_messageRadius"
+					android:topRightRadius="@dimen/Smooch_messageRadius"/>
+		</shape>
+	</item>
+</layer-list>
+
+<!-- From: file:/Users/julian/src/smooch-android/ui/src/main/res/drawable/smooch_bg_message_remote.xml -->

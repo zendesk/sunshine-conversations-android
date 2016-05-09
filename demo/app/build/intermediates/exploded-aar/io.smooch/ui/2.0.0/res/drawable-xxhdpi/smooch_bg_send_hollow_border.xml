@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+		android:shape="oval">
+	<solid
+		android:color="@android:color/transparent"/>
+	<stroke
+		android:width="@dimen/Smooch_btnSendHollowBorder"
+		android:color="@color/Smooch_btnSendHollowBorder"/>
+</shape>
+
+<!-- From: file:/Users/julian/src/smooch-android/ui/src/main/res/drawable-xxhdpi/smooch_bg_send_hollow_border.xml -->

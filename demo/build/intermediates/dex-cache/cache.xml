@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/julian/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/Users/julian/src/smooch-android/demo/gradle/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.1-74bacd139195140bad89db0f28abf77906e72436.jar" />
+    </item>
+    <item
+        jar="/Users/julian/src/smooch-android/demo/gradle/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
+        <dex dex="/Users/julian/src/smooch-android/demo/gradle/app/build/intermediates/pre-dexed/debug/classes-ef6f7a4786017549f69a61a6db5dfbc7f7c3a558.jar" />
+    </item>
+    <item
+        jar="/Users/julian/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/Users/julian/src/smooch-android/demo/gradle/app/build/intermediates/pre-dexed/debug/gson-2.3.1-c7614caa7c3f6d77e6d005869dd0b2822d6be5d3.jar" />
+    </item>
+    <item
+        jar="/Users/julian/src/smooch-android/demo/gradle/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/Users/julian/src/smooch-android/demo/gradle/app/build/intermediates/pre-dexed/debug/classes-f9f4243fc9be4d5cd20ccb672707caf87e956022.jar" />
+    </item>
+    <item
+        jar="/Users/julian/src/smooch-android/demo/gradle/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="/Users/julian/src/smooch-android/demo/gradle/app/build/intermediates/pre-dexed/debug/classes-788102aef195b7e728f89239b072f0ea553ac54a.jar" />
+    </item>
+    <item
+        jar="/Users/julian/src/smooch-android/demo/gradle/app/build/intermediates/exploded-aar/io.smooch/core/2.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d2aebe9e328a243b0f8238fd95123e88f352ca2f">
+        <dex dex="/Users/julian/src/smooch-android/demo/gradle/app/build/intermediates/pre-dexed/debug/classes-34879df2d8a63fdb02bd588b53e1911a9833c1ac.jar" />
+    </item>
+    <item
+        jar="/Users/julian/src/smooch-android/demo/gradle/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/Users/julian/src/smooch-android/demo/gradle/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.1-ef05d5901ebe841b53055ad74d80497b95b9f4d7.jar" />
+    </item>
+    <item
+        jar="/Users/julian/src/smooch-android/demo/gradle/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="/Users/julian/src/smooch-android/demo/gradle/app/build/intermediates/pre-dexed/debug/classes-797b17276401e3f390f6d3a9f1a13b64507df349.jar" />
+    </item>
+    <item
+        jar="/Users/julian/src/smooch-android/demo/gradle/app/build/intermediates/exploded-aar/io.smooch/ui/2.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fb53eb420c2b417e1c653a4b82fd06f792555ec5">
+        <dex dex="/Users/julian/src/smooch-android/demo/gradle/app/build/intermediates/pre-dexed/debug/classes-464c54f34d232f5d532e5147910e0a8e3a9af43a.jar" />
+    </item>
+    <item
+        jar="/Users/julian/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.4.0/40340c0748190fe897baf7bffbc1b282734294e5/okhttp-2.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="40340c0748190fe897baf7bffbc1b282734294e5">
+        <dex dex="/Users/julian/src/smooch-android/demo/gradle/app/build/intermediates/pre-dexed/debug/okhttp-2.4.0-bc824140698edf771457a05f336fa380243e5a58.jar" />
+    </item>
+    <item
+        jar="/Users/julian/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.4.0/5b72bf48563ea8410e650de14aa33ff69a3e8c35/okio-1.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5b72bf48563ea8410e650de14aa33ff69a3e8c35">
+        <dex dex="/Users/julian/src/smooch-android/demo/gradle/app/build/intermediates/pre-dexed/debug/okio-1.4.0-adf465e8115e23d076471c0ad960710fa50b41ea.jar" />
+    </item>
+
+</items>

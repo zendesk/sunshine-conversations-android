@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/julian/src/smooch-android/ui/src/main/res/values-zh/strings.xml -->
+    <eat-comment/>
+    <string name="Smooch_activityConversation">訊息</string>
+    <string name="Smooch_btnSend">送出</string>
+    <string name="Smooch_errorCouldNotConnect">無法連接至伺服器。</string>
+    <string name="Smooch_errorSendingMessage">訊息未成功送出，請點撃重送。</string>
+    <string name="Smooch_errorUserOffline">沒有網路服務。</string>
+    <string name="Smooch_messageHint">請輸入文字…</string>
+    <string name="Smooch_startOfConversation">您可以在這裡與 %1$s 製作團隊直接溝通。我們將會協助您充份利用這支App。</string>
+    <string name="Smooch_welcome">您也可以留下任何問題或是您的寶貴意見，我們將會盡快回覆您。</string>
+</resources>

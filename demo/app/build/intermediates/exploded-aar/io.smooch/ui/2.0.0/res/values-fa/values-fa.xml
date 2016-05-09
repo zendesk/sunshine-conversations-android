@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/julian/src/smooch-android/ui/src/main/res/values-fa/strings.xml -->
+    <eat-comment/>
+    <string name="Smooch_activityConversation">چت</string>
+    <string name="Smooch_btnSend">ارسال</string>
+    <string name="Smooch_errorCouldNotConnect">اتصال به سرور امکان‌پذیر نبود.</string>
+    <string name="Smooch_errorSendingMessage">پیام تحویل داده نشد. برای ارسال مجدد، ضربه بزنید.</string>
+    <string name="Smooch_errorUserOffline">عدم اتصال به اینترنت.</string>
+    <string name="Smooch_messageHint">پیامی را تایپ کنید…</string>
+    <string name="Smooch_startOfConversation">این شروع مکالمه شما با تیم %1$s است. ما با شما در تماس خواهیم ماند تا به شما کمک کنیم که از برنامه‌تان بیشترین بهره را ببرید.</string>
+    <string name="Smooch_welcome">اگر چیزی در ذهن خود دارید، لطفاً برای ما پیامی بگذارید. ما در اسرع وقت به سؤالات، پیشنهادات یا سایر اظهارات شما رسیدگی خواهیم کرد.</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/julian/src/smooch-android/ui/src/main/res/values-sv/strings.xml -->
+    <eat-comment/>
+    <string name="Smooch_activityConversation">Meddelanden</string>
+    <string name="Smooch_btnSend">Skicka</string>
+    <string name="Smooch_errorCouldNotConnect">Ingen kontakt med servern.</string>
+    <string name="Smooch_errorSendingMessage">Meddelande ej levererat. Tryck för nytt försök.</string>
+    <string name="Smooch_errorUserOffline">Ingen nätverksanslutning.</string>
+    <string name="Smooch_messageHint">Skriv ett meddelande…</string>
+    <string name="Smooch_startOfConversation">Här börjar din konversation med %1$s teamet. Vi finns här för att hjälpa dig få koll på allt i din app.</string>
+    <string name="Smooch_welcome">Tveka inte att lämna oss ett meddelande om vadhelst du funderar på. Vi återkommer till dig så fort vi kan.</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/julian/src/smooch-android/ui/src/main/res/values-de/strings.xml -->
+    <eat-comment/>
+    <string name="Smooch_activityConversation">Nachrichten</string>
+    <string name="Smooch_btnSend">Gesendet</string>
+    <string name="Smooch_errorCouldNotConnect">Die Verbindung mit dem Server war nicht möglich.</string>
+    <string name="Smooch_errorSendingMessage">Nachricht wurde nicht geliefert. Antippen, um erneut zu versuchen.</string>
+    <string name="Smooch_errorUserOffline">Keine Internetverbindung.</string>
+    <string name="Smooch_messageHint">Nachricht tippen…</string>
+    <string name="Smooch_startOfConversation">Dies ist der Start deines Gesprächs mit dem Team %1$s. Wir werden in Kontakt bleiben, um dir dabei zu helfen, das Beste aus deiner App herauszuholen.</string>
+    <string name="Smooch_welcome">Zögere dich nicht, uns eine Nachricht über alles, was dir am Herzen liegt, hinterzulassen. Wir antworten auf deine Fragen, Anregungen oder sonstige Wünsche möglichst schnell.</string>
+</resources>
