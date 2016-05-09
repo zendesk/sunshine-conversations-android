@@ -43,7 +43,7 @@ import io.smooch.ui.ConversationActivity;
 ConversationActivity.show(this);
 ```
 
-For Eclipse and all the details see our [docs and full install guide](http://docs.smooch.io/android/).
+For more details see our [docs and full install guide](http://docs.smooch.io/android/).
 
 # Upgrade guide to Smooch
 
