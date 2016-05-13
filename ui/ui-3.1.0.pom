@@ -4,21 +4,21 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.smooch</groupId>
   <artifactId>ui</artifactId>
-  <version>3.0.2</version>
+  <version>3.1.0</version>
   <packaging>aar</packaging>
   <name>Smooch</name>
   <url>http://smooch.io</url>
   <dependencies>
     <dependency>
-      <groupId>com.android.support</groupId>
-      <artifactId>appcompat-v7</artifactId>
-      <version>22.2.1</version>
+      <groupId>io.smooch</groupId>
+      <artifactId>core</artifactId>
+      <version>3.1.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>io.smooch</groupId>
-      <artifactId>core</artifactId>
-      <version>3.0.2</version>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>22.2.1</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
