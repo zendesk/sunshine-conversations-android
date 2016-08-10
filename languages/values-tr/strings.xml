@@ -1,0 +1,16 @@
+<resources>
+    <string name="Smooch_activityConversation">Mesajlar</string>
+    <string name="Smooch_startOfConversation">%1$s takımı ile mesajlaşmaya buradan başlayabilirsiniz. Uygulamayı en iyi şekilde kullanabilmeniz için size buradan yardımcı olmaya çalışacağız.</string>
+    <string name="Smooch_welcome">Bize istediğiniz konuda mesaj yazabilirsiniz. Size en kısa zamanda geri dönüş yapacağız.</string>
+    <string name="Smooch_messageHint">Mesajınızı yazın</string>
+    <string name="Smooch_btnSend">Gönder</string>
+    <string name="Smooch_errorSendingMessage">Mesaj iletilemedi, tekrar denemek için hafifçe tekrar basın.</string>
+    <string name="Smooch_errorCouldNotConnect">Sunucuya ulaşılamadı.</string>
+    <string name="Smooch_errorUserOffline">Internet bağlantısı bulunamadı.</string>
+    <string name="Smooch_creditMessage">%2$s için, %1$s tutarını ödemek üzere kredi kartı bilginizi giriniz</string>
+    <string name="Smooch_savedCreditMessage">Birazdan güvenli bir şekilde %2$s için, %1$s tutarını ödeyeceksiniz</string>
+    <string name="Smooch_creditErrorMessage">Ödeme yaparken bir sorun oluştu, tekrar deneyin veya başka bir kart kullanın</string>
+    <string name="Smooch_btnPayNow">Şimdi Öde</string>
+    <string name="Smooch_btnPaymentCompleted">Ödeme tamamlandı</string>
+    <string name="Smooch_btnChangeCard">Kredi Kartını Değiştirin</string>
+</resources>
