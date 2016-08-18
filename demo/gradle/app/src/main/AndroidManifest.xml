@@ -2,15 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="io.smooch.demoapp" >
 
-    <!-- Adding some permissions for push (optional) -->
-    <permission
-            android:name="io.smooch.demoapp.permission.C2D_MESSAGE"
-            android:protectionLevel="signature"/>
-
-    <uses-permission android:name="android.permission.WAKE_LOCK"/>
-    <uses-permission android:name="io.smooch.demoapp.permission.C2D_MESSAGE"/>
-    <!-- /permissions -->
-
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
@@ -26,20 +17,5 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <!-- Add the push notification receiver (optional) -->
-        <receiver
-                android:name="com.google.android.gms.gcm.GcmReceiver"
-                android:exported="true"
-                android:permission="com.google.android.c2dm.permission.SEND">
-            <intent-filter>
-                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
-                <category android:name="io.smooch.demoapp"/>
-            </intent-filter>
-            <intent-filter>
-                <action android:name="com.google.android.c2dm.intent.REGISTRATION"/>
-            </intent-filter>
-        </receiver>
-        <!-- /receiver -->
     </application>
 </manifest>
