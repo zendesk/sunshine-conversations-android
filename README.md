@@ -10,9 +10,6 @@ Sign up and get an app token: [https://app.smooch.io/signup](https://app.smooch.
 Add the dependencies right into your `build.gradle` file
 
 ```
-compile 'com.google.android.gms:play-services-gcm:7.5.0'
-compile 'com.google.code.gson:gson:2.3.1'
-compile 'com.squareup.okhttp:okhttp:2.4.0'
 compile 'io.smooch:core:latest.release'
 compile 'io.smooch:ui:latest.release'
 ```
