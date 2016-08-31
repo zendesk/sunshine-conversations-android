@@ -17,7 +17,7 @@
     <string name="Smooch_creditMessage">Gib deine Kreditkartennummer ein, um %1$s sicher an %2$s zu senden.</string>
     <string name="Smooch_errorPostback">Bei der Verarbeitung ist ein Fehler aufgetreten. Bitte versuche es erneut.</string>
     <string name="Smooch_imageUploadRetry">Antippen, um Bild erneut zu laden.</string>
-    <string name="Smooch_problemGettingPhoto">There was a problem retrieving your photo.</string>
+    <string name="Smooch_problemGettingPhoto">Beim Abrufen deines Fotos ist ein Fehler aufgetreten.</string>
     <string name="Smooch_problemSavingPhoto">Beim Speichern deines Fotos ist ein Fehler aufgetreten.</string>
     <string name="Smooch_savedCreditMessage">Du bist dabei, %1$s sicher an %2$s zu senden.</string>
     <string name="Smooch_settings_timestampFormat">d. MMMM, H:mm</string>
