@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.smooch</groupId>
   <artifactId>ui</artifactId>
-  <version>4.0.6</version>
+  <version>4.0.7</version>
   <packaging>aar</packaging>
   <name>Smooch</name>
   <url>http://smooch.io</url>
@@ -12,7 +12,7 @@
     <dependency>
       <groupId>io.smooch</groupId>
       <artifactId>core</artifactId>
-      <version>4.0.6</version>
+      <version>4.0.7</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
