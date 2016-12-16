@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.smooch</groupId>
   <artifactId>core</artifactId>
-  <version>4.0.7</version>
+  <version>4.1.0</version>
   <packaging>aar</packaging>
   <name>Smooch</name>
   <url>http://smooch.io</url>
@@ -24,13 +24,13 @@
     <dependency>
       <groupId>com.google.firebase</groupId>
       <artifactId>firebase-core</artifactId>
-      <version>9.4.0</version>
+      <version>10.0.1</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.google.firebase</groupId>
       <artifactId>firebase-messaging</artifactId>
-      <version>9.4.0</version>
+      <version>10.0.1</version>
       <scope>compile</scope>
     </dependency>
   </dependencies>
