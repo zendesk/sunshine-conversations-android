@@ -13,23 +13,30 @@ Add the dependencies right into your `build.gradle` file
 compile 'io.smooch:core:latest.release'
 compile 'io.smooch:ui:latest.release'
 ```
-    
+
 Initialize Smooch in your [Application](developer.android.com/reference/android/app/Application.html) class
 
 ```java
 import android.app.Application;
+import io.smooch.core.Settings;
 import io.smooch.core.Smooch;
+import io.smooch.core.SmoochCallback;
 
 
 public class YourApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-        Smooch.init(this, "YOUR_APP_TOKEN");
+        Smooch.init(this, new Settings("YOUR_APP_ID"), new SmoochCallback() {
+            @Override
+            public void run(Response response) {
+                // Handle init result
+            }
+        });
     }
 }
 ```
-    
+
 Show the ConversationActivity
 
 ```java
