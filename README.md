@@ -1,7 +1,7 @@
 # [Smooch SDK for Android](http://www.smooch.io)
 
 [![Bintray](https://api.bintray.com/packages/smoochorg/maven/smooch/images/download.svg)](https://bintray.com/smoochorg/maven/smooch/view#files)
-[![License](http://img.shields.io/cocoapods/l/Smooch.svg)](https://smooch.io/terms.html)
+[![License](http://img.shields.io/cocoapods/l/Smooch.svg)](https://smooch.io/terms)
 
 # tl;dr
 
