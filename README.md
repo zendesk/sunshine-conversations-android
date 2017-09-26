@@ -10,8 +10,8 @@ Sign up and get an app token: [https://app.smooch.io/signup](https://app.smooch.
 Add the dependencies right into your `build.gradle` file
 
 ```
-compile 'io.smooch:core:latest.release'
-compile 'io.smooch:ui:latest.release'
+compile 'io.smooch:core:5.+'
+compile 'io.smooch:ui:5.+'
 ```
 
 Initialize Smooch in your [Application](developer.android.com/reference/android/app/Application.html) class
