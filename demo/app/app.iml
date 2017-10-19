@@ -93,8 +93,8 @@
     <orderEntry type="library" exported="" name="subsampling-scale-image-view-3.5.0" level="project" />
     <orderEntry type="library" exported="" name="firebase-messaging-11.0.4" level="project" />
     <orderEntry type="library" exported="" name="play-services-base-11.0.4" level="project" />
+    <orderEntry type="library" exported="" name="ui-5.1.1" level="project" />
     <orderEntry type="library" exported="" name="play-services-location-11.0.4" level="project" />
-    <orderEntry type="library" exported="" name="ui-5.1.0" level="project" />
     <orderEntry type="library" exported="" name="gson-2.4" level="project" />
     <orderEntry type="library" exported="" name="support-compat-26.0.2" level="project" />
     <orderEntry type="library" exported="" name="universal-image-loader-1.9.5" level="project" />
@@ -103,8 +103,8 @@
     <orderEntry type="library" exported="" name="support-annotations-26.0.2" level="project" />
     <orderEntry type="library" exported="" name="support-v4-26.0.2" level="project" />
     <orderEntry type="library" exported="" name="appcompat-v7-26.0.2" level="project" />
-    <orderEntry type="library" exported="" name="core-5.1.0" level="project" />
     <orderEntry type="library" exported="" name="okhttp-3.4.1" level="project" />
+    <orderEntry type="library" exported="" name="core-5.1.1" level="project" />
     <orderEntry type="library" exported="" name="firebase-analytics-11.0.4" level="project" />
     <orderEntry type="library" exported="" name="firebase-analytics-impl-11.0.4" level="project" />
     <orderEntry type="library" exported="" name="play-services-tasks-11.0.4" level="project" />
