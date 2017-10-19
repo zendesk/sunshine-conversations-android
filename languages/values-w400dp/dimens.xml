@@ -2,5 +2,5 @@
 <resources>
     <dimen name="Smooch_imageDisplayHeight">162dp</dimen>
     <dimen name="Smooch_imageDisplayWidth">288dp</dimen>
-    <dimen name="Smooch_messageMaxSize">260dp</dimen>
+    <dimen name="Smooch_messageMaxSize">264dp</dimen>
 </resources>

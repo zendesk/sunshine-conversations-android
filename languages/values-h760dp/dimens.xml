@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="Smooch_webviewHeightCompact">380dp</dimen>
+    <dimen name="Smooch_webviewHeightTall">550dp</dimen>
+    <dimen name="Smooch_webviewTabletHeightFull">650dp</dimen>
+</resources>
