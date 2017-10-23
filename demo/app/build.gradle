@@ -23,8 +23,8 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
 
     // Add Smooch core and ui
-    compile 'io.smooch:core:5.1.1'
-    compile 'io.smooch:ui:5.1.1'
+    compile 'io.smooch:core:latest.release'
+    compile 'io.smooch:ui:latest.release'
 }
 
 apply plugin: 'com.google.gms.google-services'
