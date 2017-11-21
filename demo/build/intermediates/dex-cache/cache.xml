@@ -3,21 +3,23 @@
 
     <item
         is-multidex="false"
-        jar="/Users/wmora/.android/build-cache/eaef344df26555eca71d7591d132c0d617767917/output/jars/classes.jar"
+        jar="/Users/wmora/.gradle/caches/transforms-1/files-1.1/core-5.4.1.aar/1a9bfb7500015cfc02dcb7d0dffe95e4/jars/classes.jar"
         jumboMode="false"
+        min-sdk-version="15"
         optimize="true"
-        revision="26.0.1"
-        sha1="ab238b6bbc3d0230aa776232b471c32134947759">
-        <dex dex="/Users/wmora/dev/android/demo/app/build/intermediates/pre-dexed/debug/classes_6844a6ef0641c647f4a426508109b812af53b367.jar" />
+        revision="26.0.2"
+        sha1="10ce3a32670fe0643d1064ebb9883bff51082342">
+        <dex dex="/Users/wmora/dev/android/demo/app/build/intermediates/transforms/preDex/release/2.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/wmora/.android/build-cache/a1c043d7d994adb0348146712cebc91b5596e818/output/jars/classes.jar"
+        jar="/Users/wmora/.gradle/caches/transforms-1/files-1.1/ui-5.4.1.aar/3fdac22f11c5e2ebf7b240059f084fd8/jars/classes.jar"
         jumboMode="false"
+        min-sdk-version="15"
         optimize="true"
-        revision="26.0.1"
-        sha1="593e5919d6f70947b080d1896853346056237c1a">
-        <dex dex="/Users/wmora/dev/android/demo/app/build/intermediates/pre-dexed/debug/classes_c8ad23114ca4561fdc91d3e9f7efbfadf06e0570.jar" />
+        revision="26.0.2"
+        sha1="33a07accbeef23d13e435bdf2fd972b09863606d">
+        <dex dex="/Users/wmora/dev/android/demo/app/build/intermediates/transforms/preDex/release/1.jar" />
     </item>
 
 </items>

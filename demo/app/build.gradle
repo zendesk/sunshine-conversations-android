@@ -2,7 +2,6 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 26
-    buildToolsVersion "26.0.1"
 
     defaultConfig {
         applicationId "io.smooch.demoapp"
@@ -20,11 +19,11 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
 
     // Add Smooch core and ui
-    compile 'io.smooch:core:latest.release'
-    compile 'io.smooch:ui:latest.release'
+    implementation 'io.smooch:core:5.+'
+    implementation 'io.smooch:ui:5.+'
 }
 
 apply plugin: 'com.google.gms.google-services'
