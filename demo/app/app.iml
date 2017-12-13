@@ -50,13 +50,6 @@
       <sourceFolder url="file://$MODULE_DIR$/src/debug/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/rs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/shaders" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/assets" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/testDebug/res" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/testDebug/resources" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/testDebug/assets" type="java-test-resource" />
@@ -64,6 +57,13 @@
       <sourceFolder url="file://$MODULE_DIR$/src/testDebug/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/testDebug/rs" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/testDebug/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/assets" type="java-resource" />
@@ -100,24 +100,40 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/shaders" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/splits-support" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/symbols" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/tmp" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/transforms" />
       <excludeFolder url="file://$MODULE_DIR$/build/outputs" />
-      <excludeFolder url="file://$MODULE_DIR$/build/reports" />
       <excludeFolder url="file://$MODULE_DIR$/build/tmp" />
     </content>
     <orderEntry type="jdk" jdkName="Android API 26 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="com.google.firebase:firebase-iid-9.0.0" level="project" />
-    <orderEntry type="library" name="com.google.firebase:firebase-common-9.0.0" level="project" />
-    <orderEntry type="library" name="com.google.android.gms:play-services-tasks-9.0.0" level="project" />
-    <orderEntry type="library" name="com.google.firebase:firebase-core-9.0.0" level="project" />
-    <orderEntry type="library" name="com.google.firebase:firebase-analytics-impl-9.0.0" level="project" />
-    <orderEntry type="library" name="com.google.android.gms:play-services-basement-9.0.0" level="project" />
-    <orderEntry type="library" name="com.google.android.gms:play-services-base-9.0.0" level="project" />
+    <orderEntry type="library" name="com.android.support:recyclerview-v7-26.0.2" level="project" />
+    <orderEntry type="library" name="com.android.support:support-media-compat-26.0.2" level="project" />
+    <orderEntry type="library" name="com.google.code.gson:gson:2.4@jar" level="project" />
+    <orderEntry type="library" name="com.android.support:support-vector-drawable-26.0.2" level="project" />
     <orderEntry type="library" name="io.smooch:ui-5.4.1" level="project" />
     <orderEntry type="library" name="io.smooch:core-5.4.1" level="project" />
-    <orderEntry type="library" name="com.google.firebase:firebase-analytics-9.0.0" level="project" />
-    <orderEntry type="library" name="com.android.support:support-annotations:23.0.0@jar" level="project" />
-    <orderEntry type="library" name="com.android.support:support-v4-23.0.0" level="project" />
+    <orderEntry type="library" name="com.android.support:support-fragment-26.0.2" level="project" />
+    <orderEntry type="library" name="com.android.support:appcompat-v7-26.0.2" level="project" />
+    <orderEntry type="library" name="com.google.android.gms:play-services-basement-11.0.4" level="project" />
+    <orderEntry type="library" name="com.android.support:support-core-utils-26.0.2" level="project" />
+    <orderEntry type="library" name="com.google.firebase:firebase-iid-11.0.4" level="project" />
+    <orderEntry type="library" name="com.android.support:support-core-ui-26.0.2" level="project" />
+    <orderEntry type="library" name="com.android.support:support-compat-26.0.2" level="project" />
+    <orderEntry type="library" name="com.nostra13.universalimageloader:universal-image-loader:1.9.5@jar" level="project" />
+    <orderEntry type="library" name="com.google.firebase:firebase-analytics-11.0.4" level="project" />
+    <orderEntry type="library" name="com.android.support:support-annotations:26.0.2@jar" level="project" />
+    <orderEntry type="library" name="com.squareup.okhttp3:okhttp:3.4.1@jar" level="project" />
+    <orderEntry type="library" name="com.android.support:support-v4-26.0.2" level="project" />
+    <orderEntry type="library" name="com.google.android.gms:play-services-tasks-11.0.4" level="project" />
+    <orderEntry type="library" name="com.google.firebase:firebase-core-11.0.4" level="project" />
+    <orderEntry type="library" name="com.google.firebase:firebase-messaging-11.0.4" level="project" />
+    <orderEntry type="library" name="com.android.support:animated-vector-drawable-26.0.2" level="project" />
+    <orderEntry type="library" name="com.google.firebase:firebase-common-11.0.4" level="project" />
+    <orderEntry type="library" name="com.davemorrissey.labs:subsampling-scale-image-view-3.5.0" level="project" />
+    <orderEntry type="library" name="com.google.firebase:firebase-analytics-impl-11.0.4" level="project" />
+    <orderEntry type="library" name="com.google.android.gms:play-services-location-11.0.4" level="project" />
+    <orderEntry type="library" name="com.squareup.okio:okio:1.9.0@jar" level="project" />
+    <orderEntry type="library" name="com.google.android.gms:play-services-base-11.0.4" level="project" />
   </component>
 </module>
