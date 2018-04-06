@@ -7,7 +7,7 @@
     <string name="Smooch_messageHint">Nachricht eingeben…</string>
     <string name="Smooch_startOfConversation">Dies ist der Beginn deiner Unterhaltung mit dem Team von %1$s. Lass uns in Kontakt bleiben, damit wir dir helfen können, das Beste aus deiner App herauszuholen.</string>
     <string name="Smooch_welcome">Hinterlasse uns eine Nachricht zu allem, was dir auf dem Herzen liegt. Wir antworten auf deine Fragen, Anregungen oder sonstige Wünsche so schnell wie möglich.</string>
-    <string name="Smooch_btnCamera">Bild auswählen</string>
+    <string name="Smooch_btnMenu">Bild auswählen</string>
     <string name="Smooch_btnChangeCard">Kreditkarte ändern</string>
     <string name="Smooch_btnPayNow">Jetzt bezahlen</string>
     <string name="Smooch_btnPaymentCompleted">Zahlung abgeschlossen</string>
@@ -23,5 +23,4 @@
     <string name="Smooch_savedCreditMessage">Du bist dabei, %1$s sicher an %2$s zu senden.</string>
     <string name="Smooch_settings_timestampFormat">d. MMMM, H:mm</string>
     <string name="Smooch_takePhoto">Foto aufnehmen</string>
-    <string name="Smooch_useLastPhoto">Letzte Fotoaufnahme</string>
 </resources>

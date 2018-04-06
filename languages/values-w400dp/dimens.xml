@@ -3,4 +3,5 @@
     <dimen name="Smooch_imageDisplayHeight">162dp</dimen>
     <dimen name="Smooch_imageDisplayWidth">309dp</dimen>
     <dimen name="Smooch_messageMaxSize">285dp</dimen>
+    <dimen name="Smooch_fileNameMaxWidth">222dp</dimen>
 </resources>
