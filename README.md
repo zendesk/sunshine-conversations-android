@@ -8,8 +8,8 @@ Sign up and get an app id: [https://app.smooch.io/signup](https://app.smooch.io/
 Add the dependencies right into your `build.gradle` file
 
 ```
-compile 'io.smooch:core:5.12.5'
-compile 'io.smooch:ui:5.12.5'
+compile 'io.smooch:core:5.13.0'
+compile 'io.smooch:ui:5.13.0'
 ```
 
 Initialize Smooch in your [Application](developer.android.com/reference/android/app/Application.html) class
@@ -55,8 +55,8 @@ Smooch uses the following dependencies:
     // Core dependencies
     implementation 'com.google.code.gson:gson:2.4'
     implementation 'com.squareup.okhttp3:okhttp:3.4.1'
-    implementation 'com.google.firebase:firebase-core:12.0.1'
-    implementation 'com.google.firebase:firebase-messaging:12.0.1'
+    implementation 'com.google.firebase:firebase-core:16.0.0'
+    implementation 'com.google.firebase:firebase-messaging:17.0.0'
     implementation 'com.android.support:support-annotations:27.1.1'
 
     // UI dependencies
@@ -66,7 +66,7 @@ Smooch uses the following dependencies:
     implementation 'com.android.support:exifinterface:27.1.1'
     implementation 'com.android.support:recyclerview-v7:27.1.1'
     implementation 'com.android.support:support-media-compat:27.1.1'
-    implementation 'com.google.android.gms:play-services-location:12.0.1'
+    implementation 'com.google.android.gms:play-services-location:15.0.1'
     implementation 'com.davemorrissey.labs:subsampling-scale-image-view:3.10.0'
 ```
 
@@ -74,24 +74,26 @@ If your app also uses Firebase or support libraries, their version must match th
 
 ```
 def supportLibraryVersion = "YOUR_SUPPORT_LIBRARY_VERSION"
-def firebaseVersion = "YOUR_FIREBASE_VERSION"
+def firebaseCoreVersion = "YOUR_FIREBASE_CORE_VERSION"
+def firebaseMessagingVersion = "YOUR_FIREBASE_MESSAGING_VERSION"
+def playServicesVersion = "YOUR_PLAY_SERVICES_VERSION"
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "com.android.support:appcompat-v7:${supportLibraryVersion}"
 
     // Smooch
-    implementation 'io.smooch:core:5.12.5'
-    implementation 'io.smooch:ui:5.12.5'
+    implementation 'io.smooch:core:5.13.0'
+    implementation 'io.smooch:ui:5.13.0'
 
     // Libraries imported by Smooch
-    implementation "com.google.firebase:firebase-core:${firebaseVersion}"
-    implementation "com.google.firebase:firebase-messaging:${firebaseVersion}"
+    implementation "com.google.firebase:firebase-core:${firebaseCoreVersion}"
+    implementation "com.google.firebase:firebase-messaging:${firebaseMessagingVersion}"
     implementation "com.android.support:support-v4:${supportLibraryVersion}"
     implementation "com.android.support:exifinterface:${supportLibraryVersion}"
     implementation "com.android.support:recyclerview-v7:${supportLibraryVersion}"
     implementation "com.android.support:support-media-compat:${supportLibraryVersion}"
-    implementation "com.google.android.gms:play-services-location:${firebaseVersion}"
+    implementation "com.google.android.gms:play-services-location:${playServicesVersion}"
 
     // Your other app dependencies
 }

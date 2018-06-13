@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.smooch</groupId>
   <artifactId>ui</artifactId>
-  <version>5.12.5</version>
+  <version>5.13.0</version>
   <packaging>aar</packaging>
   <name>Smooch</name>
   <url>http://smooch.io</url>
@@ -48,7 +48,7 @@
     <dependency>
       <groupId>com.google.android.gms</groupId>
       <artifactId>play-services-location</artifactId>
-      <version>12.0.1</version>
+      <version>15.0.1</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -60,7 +60,7 @@
     <dependency>
       <groupId>io.smooch</groupId>
       <artifactId>core</artifactId>
-      <version>5.12.5</version>
+      <version>5.13.0</version>
       <scope>compile</scope>
     </dependency>
   </dependencies>
