@@ -8,8 +8,8 @@ Sign up and get an app id: [https://app.smooch.io/signup](https://app.smooch.io/
 Add the dependencies right into your `build.gradle` file
 
 ```
-compile 'io.smooch:core:5.14.5'
-compile 'io.smooch:ui:5.14.5'
+compile 'io.smooch:core:5.15.0'
+compile 'io.smooch:ui:5.15.0'
 ```
 
 Initialize Smooch in your [Application](developer.android.com/reference/android/app/Application.html) class
@@ -55,18 +55,18 @@ Smooch uses the following dependencies:
     // Core dependencies
     implementation 'com.google.code.gson:gson:2.4'
     implementation 'com.squareup.okhttp3:okhttp:3.11.0'
-    implementation 'com.google.firebase:firebase-core:16.0.0'
-    implementation 'com.google.firebase:firebase-messaging:17.0.0'
-    implementation 'com.android.support:support-annotations:27.1.1'
+    implementation 'com.google.firebase:firebase-core:16.0.6'
+    implementation 'com.google.firebase:firebase-messaging:17.3.4'
+    implementation 'com.android.support:support-annotations:28.0.0'
 
     // UI dependencies
     implementation 'com.github.bumptech.glide:glide:4.6.1'
-    implementation 'com.android.support:support-v4:27.1.1'
-    implementation 'com.android.support:appcompat-v7:27.1.1'
-    implementation 'com.android.support:exifinterface:27.1.1'
-    implementation 'com.android.support:recyclerview-v7:27.1.1'
-    implementation 'com.android.support:support-media-compat:27.1.1'
-    implementation 'com.google.android.gms:play-services-location:15.0.1'
+    implementation 'com.android.support:support-v4:28.0.0'
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support:exifinterface:28.0.0'
+    implementation 'com.android.support:recyclerview-v7:28.0.0'
+    implementation 'com.android.support:support-media-compat:28.0.0'
+    implementation 'com.google.android.gms:play-services-location:16.0.0'
     implementation 'com.davemorrissey.labs:subsampling-scale-image-view:3.10.0'
 ```
 
@@ -83,8 +83,8 @@ dependencies {
     implementation "com.android.support:appcompat-v7:${supportLibraryVersion}"
 
     // Smooch
-    implementation 'io.smooch:core:5.14.5'
-    implementation 'io.smooch:ui:5.14.5'
+    implementation 'io.smooch:core:5.15.0'
+    implementation 'io.smooch:ui:5.15.0'
 
     // Libraries imported by Smooch
     implementation "com.google.firebase:firebase-core:${firebaseCoreVersion}"
