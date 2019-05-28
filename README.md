@@ -8,8 +8,8 @@ Sign up and get an app id: [https://app.smooch.io/signup](https://app.smooch.io/
 Add the dependencies right into your `build.gradle` file
 
 ```
-compile 'io.smooch:core:6.0.0'
-compile 'io.smooch:ui:6.0.0'
+compile 'io.smooch:core:6.0.1'
+compile 'io.smooch:ui:6.0.1'
 ```
 
 Initialize Smooch in your [Application](developer.android.com/reference/android/app/Application.html) class
@@ -83,8 +83,8 @@ dependencies {
     implementation "com.android.support:appcompat-v7:${supportLibraryVersion}"
 
     // Smooch
-    implementation 'io.smooch:core:6.0.0'
-    implementation 'io.smooch:ui:6.0.0'
+    implementation 'io.smooch:core:6.0.1'
+    implementation 'io.smooch:ui:6.0.1'
 
     // Libraries imported by Smooch
     implementation "com.google.firebase:firebase-core:${firebaseCoreVersion}"
