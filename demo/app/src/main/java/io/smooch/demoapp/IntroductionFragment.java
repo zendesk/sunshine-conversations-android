@@ -1,16 +1,13 @@
 package io.smooch.demoapp;
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.text.method.LinkMovementMethod;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.TextView;
 
 import io.smooch.ui.ConversationActivity;
 
@@ -24,12 +21,14 @@ public class IntroductionFragment extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_main, container, false);
 
-        Button mHelpBtn = (Button) rootView.findViewById(R.id.button_help);
-        mHelpBtn.setOnClickListener(new View.OnClickListener() {
+        Button helpBtn = rootView.findViewById(R.id.button_help);
+        helpBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 // Showing Smooch on the button click
-                ConversationActivity.show(getActivity(), Intent.FLAG_ACTIVITY_NEW_TASK);
+                ConversationActivity.builder()
+                        .withFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+                        .show(getActivity());
             }
         });
 

@@ -6,6 +6,7 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
+import io.smooch.core.InitializationStatus;
 import io.smooch.core.Settings;
 import io.smooch.core.Smooch;
 import io.smooch.core.SmoochCallback;
@@ -19,7 +20,7 @@ public class DemoApplication extends Application {
         // Initialize Smooch with your app id
         // Get your own at https://app.smooch.io/
         // and paste it here!
-        Smooch.init(this, new Settings("53ecf8ad0f4f4d0a0000eaad"), new SmoochCallback() {
+        Smooch.init(this, new Settings("59a93c829200175800018222"), new SmoochCallback<InitializationStatus>() {
             @Override
             public void run(Response response) {
                 // Handle init response here!
@@ -35,7 +36,7 @@ public class DemoApplication extends Application {
         user.setFirstName("Demo");
         user.setLastName("App");
         user.setEmail("demo.app@smooch.io");
-        user.setSignedUpAt(new Date(1420070400000l));
+        user.setSignedUpAt(new Date(1420070400000L));
 
         // Add your own custom properties
         customProperties.put("Last Seen", new Date());

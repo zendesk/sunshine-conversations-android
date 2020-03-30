@@ -28,14 +28,14 @@ public class NavigationDrawerFragment extends Fragment {
 
     private static final String STATE_SELECTED_POSITION = "selected_navigation_drawer_position";
     private static final String PREF_USER_LEARNED_DRAWER = "navigation_drawer_learned";
-    private NavigationDrawerCallbacks mCallbacks;
-    private ActionBarDrawerToggle mDrawerToggle;
-    private DrawerLayout mDrawerLayout;
-    private ListView mDrawerListView;
-    private View mFragmentContainerView;
-    private int mCurrentSelectedPosition = 0;
-    private boolean mFromSavedInstanceState;
-    private boolean mUserLearnedDrawer;
+    private NavigationDrawerCallbacks callbacks;
+    private ActionBarDrawerToggle drawerToggle;
+    private DrawerLayout drawerLayout;
+    private ListView drawerListView;
+    private View fragmentContainerView;
+    private int currentSelectedPosition = 0;
+    private boolean fromSavedInstanceState;
+    private boolean userLearnedDrawer;
 
     public NavigationDrawerFragment() {
     }
@@ -45,14 +45,14 @@ public class NavigationDrawerFragment extends Fragment {
         super.onCreate(savedInstanceState);
 
         SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(getActivity());
-        mUserLearnedDrawer = sp.getBoolean(PREF_USER_LEARNED_DRAWER, false);
+        userLearnedDrawer = sp.getBoolean(PREF_USER_LEARNED_DRAWER, false);
 
         if (savedInstanceState != null) {
-            mCurrentSelectedPosition = savedInstanceState.getInt(STATE_SELECTED_POSITION);
-            mFromSavedInstanceState = true;
+            currentSelectedPosition = savedInstanceState.getInt(STATE_SELECTED_POSITION);
+            fromSavedInstanceState = true;
         }
 
-        selectItem(mCurrentSelectedPosition);
+        selectItem(currentSelectedPosition);
     }
 
     @Override
@@ -64,15 +64,15 @@ public class NavigationDrawerFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        mDrawerListView = (ListView) inflater.inflate(
+        drawerListView = (ListView) inflater.inflate(
                 R.layout.fragment_navigation_drawer, container, false);
-        mDrawerListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        drawerListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 selectItem(position);
             }
         });
-        mDrawerListView.setAdapter(new ArrayAdapter<>(
+        drawerListView.setAdapter(new ArrayAdapter<>(
                 getActionBar().getThemedContext(),
                 android.R.layout.simple_list_item_activated_1,
                 android.R.id.text1,
@@ -81,29 +81,29 @@ public class NavigationDrawerFragment extends Fragment {
                         getString(R.string.title_section2),
                         getString(R.string.title_section3)
                 }));
-        mDrawerListView.setItemChecked(mCurrentSelectedPosition, true);
+        drawerListView.setItemChecked(currentSelectedPosition, true);
 
-        return mDrawerListView;
+        return drawerListView;
     }
 
     public boolean isDrawerOpen() {
-        return mDrawerLayout != null && mDrawerLayout.isDrawerOpen(mFragmentContainerView);
+        return drawerLayout != null && drawerLayout.isDrawerOpen(fragmentContainerView);
     }
 
     public void setUp(int fragmentId, DrawerLayout drawerLayout) {
-        mFragmentContainerView = getActivity().findViewById(fragmentId);
-        mDrawerLayout = drawerLayout;
+        fragmentContainerView = getActivity().findViewById(fragmentId);
+        this.drawerLayout = drawerLayout;
 
-        mDrawerLayout.setDrawerShadow(R.drawable.drawer_shadow, GravityCompat.START);
+        this.drawerLayout.setDrawerShadow(R.drawable.drawer_shadow, GravityCompat.START);
 
         ActionBar actionBar = getActionBar();
         actionBar.setDisplayHomeAsUpEnabled(true);
         actionBar.setHomeButtonEnabled(true);
         actionBar.setHomeAsUpIndicator(R.drawable.ic_drawer);
 
-        mDrawerToggle = new ActionBarDrawerToggle(
+        drawerToggle = new ActionBarDrawerToggle(
                 getActivity(),
-                mDrawerLayout,
+                NavigationDrawerFragment.this.drawerLayout,
                 R.drawable.ic_drawer,
                 R.string.navigation_drawer_open,
                 R.string.navigation_drawer_close
@@ -125,8 +125,8 @@ public class NavigationDrawerFragment extends Fragment {
                     return;
                 }
 
-                if (!mUserLearnedDrawer) {
-                    mUserLearnedDrawer = true;
+                if (!userLearnedDrawer) {
+                    userLearnedDrawer = true;
                     SharedPreferences sp = PreferenceManager
                             .getDefaultSharedPreferences(getActivity());
                     sp.edit().putBoolean(PREF_USER_LEARNED_DRAWER, true).apply();
@@ -136,26 +136,26 @@ public class NavigationDrawerFragment extends Fragment {
             }
         };
 
-        mDrawerLayout.post(new Runnable() {
+        this.drawerLayout.post(new Runnable() {
             @Override
             public void run() {
-                mDrawerToggle.syncState();
+                drawerToggle.syncState();
             }
         });
 
-        mDrawerLayout.setDrawerListener(mDrawerToggle);
+        this.drawerLayout.setDrawerListener(drawerToggle);
     }
 
     private void selectItem(int position) {
-        mCurrentSelectedPosition = position;
-        if (mDrawerListView != null) {
-            mDrawerListView.setItemChecked(position, true);
+        currentSelectedPosition = position;
+        if (drawerListView != null) {
+            drawerListView.setItemChecked(position, true);
         }
-        if (mDrawerLayout != null) {
-            mDrawerLayout.closeDrawer(mFragmentContainerView);
+        if (drawerLayout != null) {
+            drawerLayout.closeDrawer(fragmentContainerView);
         }
-        if (mCallbacks != null) {
-            mCallbacks.onNavigationDrawerItemSelected(position);
+        if (callbacks != null) {
+            callbacks.onNavigationDrawerItemSelected(position);
         }
     }
 
@@ -163,7 +163,7 @@ public class NavigationDrawerFragment extends Fragment {
     public void onAttach(Activity activity) {
         super.onAttach(activity);
         try {
-            mCallbacks = (NavigationDrawerCallbacks) activity;
+            callbacks = (NavigationDrawerCallbacks) activity;
         } catch (ClassCastException e) {
             throw new ClassCastException("Activity must implement NavigationDrawerCallbacks.");
         }
@@ -172,24 +172,24 @@ public class NavigationDrawerFragment extends Fragment {
     @Override
     public void onDetach() {
         super.onDetach();
-        mCallbacks = null;
+        callbacks = null;
     }
 
     @Override
     public void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
-        outState.putInt(STATE_SELECTED_POSITION, mCurrentSelectedPosition);
+        outState.putInt(STATE_SELECTED_POSITION, currentSelectedPosition);
     }
 
     @Override
     public void onConfigurationChanged(Configuration newConfig) {
         super.onConfigurationChanged(newConfig);
-        mDrawerToggle.onConfigurationChanged(newConfig);
+        drawerToggle.onConfigurationChanged(newConfig);
     }
 
     @Override
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
-        if (mDrawerLayout != null && isDrawerOpen()) {
+        if (drawerLayout != null && isDrawerOpen()) {
             showGlobalContextActionBar();
         }
         super.onCreateOptionsMenu(menu, inflater);
@@ -197,7 +197,7 @@ public class NavigationDrawerFragment extends Fragment {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        return mDrawerToggle.onOptionsItemSelected(item) || super.onOptionsItemSelected(item);
+        return drawerToggle.onOptionsItemSelected(item) || super.onOptionsItemSelected(item);
     }
 
     private void showGlobalContextActionBar() {

@@ -1,12 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 28
+    compileSdkVersion 29
 
     defaultConfig {
         applicationId "io.smooch.demoapp"
-        minSdkVersion 15
-        targetSdkVersion 28
+        minSdkVersion 16
+        targetSdkVersion 29
         versionCode 1
         versionName "1.0"
     }
@@ -16,14 +16,22 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    lintOptions {
+        abortOnError false
+    }
 }
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-    // Add Smooch core and ui
-    implementation 'io.smooch:core:5.+'
-    implementation 'io.smooch:ui:5.+'
+    // Add Smooch ui to use the SDK out of the box
+    implementation 'io.smooch:ui:7.+'
+
+    // Smooch core is included in ui and can be omitted
+    // Add it to your dependencies if you intend to build a custom UI
+    // implementation 'io.smooch:core:7.+'
+
+    implementation "com.android.support:appcompat-v7:28.0.0"
 }
 
 apply plugin: 'com.google.gms.google-services'

@@ -17,20 +17,20 @@ public class MainActivity extends AppCompatActivity
     // really nothing to see here, we have integrated
     // Smooch APIs in the fragments.
 
-    private NavigationDrawerFragment mNavigationDrawerFragment;
+    private NavigationDrawerFragment navigationDrawerFragment;
 
-    private CharSequence mTitle;
+    private CharSequence title;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mNavigationDrawerFragment = (NavigationDrawerFragment)
+        navigationDrawerFragment = (NavigationDrawerFragment)
                 getSupportFragmentManager().findFragmentById(R.id.navigation_drawer);
-        mTitle = getTitle();
+        title = getTitle();
 
-        mNavigationDrawerFragment.setUp(
+        navigationDrawerFragment.setUp(
                 R.id.navigation_drawer,
                 (DrawerLayout) findViewById(R.id.drawer_layout));
     }
@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity
                         .commit();
                 break;
             case 1:
-                ConversationActivity.show(this);
+                ConversationActivity.builder().show(this);
                 break;
             case 2:
                 SettingsFragment settingsFragment = new SettingsFragment();
@@ -64,13 +64,13 @@ public class MainActivity extends AppCompatActivity
     public void onSectionAttached(int number) {
         switch (number) {
             case 1:
-                mTitle = getString(R.string.title_section1);
+                title = getString(R.string.title_section1);
                 break;
             case 2:
-                mTitle = getString(R.string.title_section2);
+                title = getString(R.string.title_section2);
                 break;
             case 3:
-                mTitle = getString(R.string.title_section3);
+                title = getString(R.string.title_section3);
                 break;
         }
     }
@@ -79,12 +79,12 @@ public class MainActivity extends AppCompatActivity
         ActionBar actionBar = getSupportActionBar();
         actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_STANDARD);
         actionBar.setDisplayShowTitleEnabled(true);
-        actionBar.setTitle(mTitle);
+        actionBar.setTitle(title);
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        if (!mNavigationDrawerFragment.isDrawerOpen()) {
+        if (!navigationDrawerFragment.isDrawerOpen()) {
             restoreActionBar();
             return true;
         }

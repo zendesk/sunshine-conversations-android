@@ -8,8 +8,8 @@ Sign up and get an integration id: [https://app.smooch.io/signup](https://app.sm
 Add the dependencies right into your `build.gradle` file
 
 ```
-implementation 'io.smooch:core:7.0.0'
-implementation 'io.smooch:ui:7.0.0'
+implementation 'io.smooch:core:7.0.1'
+implementation 'io.smooch:ui:7.0.1'
 ```
 
 Initialize Smooch in your [Application](https://developer.android.com/reference/android/app/Application.html) class
@@ -41,7 +41,7 @@ import io.smooch.ui.ConversationActivity;
 
 ...
 
-ConversationActivity.show(this);
+ConversationActivity.builder().show(this);
 ```
 
 For more details see our [docs and full install guide](https://docs.smooch.io/guide/native-android-sdk/).
@@ -85,8 +85,8 @@ dependencies {
     implementation "com.android.support:appcompat-v7:${supportLibraryVersion}"
 
     // Smooch
-    implementation 'io.smooch:core:7.0.0'
-    implementation 'io.smooch:ui:7.0.0'
+    implementation 'io.smooch:core:7.0.1'
+    implementation 'io.smooch:ui:7.0.1'
 
     // Libraries imported by Smooch
     implementation "com.google.firebase:firebase-messaging:${firebaseMessagingVersion}"

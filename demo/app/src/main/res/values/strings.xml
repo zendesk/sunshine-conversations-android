@@ -11,5 +11,5 @@
     <string name="Smooch_demo_show_conversation">Smooch Me</string>
     <string name="Smooch_demo_intro">Smooch lets you build rich app-to-users messaging inside your apps and websites. Try out this demo app to see what it can do for you.</string>
 
-    <string name="Smooch_demo_appid">You can set your own app id if you want to have a conversation with yourself.</string>
+    <string name="Smooch_demo_integration_id">You can set your own integration id if you want to have a conversation with yourself.</string>
 </resources>

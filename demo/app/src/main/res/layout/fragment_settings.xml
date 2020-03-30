@@ -31,7 +31,7 @@
     <TextView
             android:layout_width="313dp"
             android:layout_height="wrap_content"
-            android:text="@string/Smooch_demo_appid"
+            android:text="@string/Smooch_demo_integration_id"
             android:id="@+id/text_intro"
             android:layout_gravity="center_horizontal"
             android:textAlignment="center"
@@ -43,15 +43,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="App Id"
-            android:id="@+id/textView_label_appId"
+            android:text="Integration Id"
+            android:id="@+id/textView_label_integration_Id"
             android:layout_gravity="center_horizontal|left"
             android:layout_marginTop="15dp"/>
 
     <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/editText_appId"
+            android:id="@+id/editText_integration_id"
             android:singleLine="true"
             android:maxLines="1"
             android:lines="1"
