@@ -17,7 +17,7 @@ public class DemoApplication extends Application {
     public void onCreate() {
         super.onCreate();
 
-        // Initialize Smooch with your android-sdk integration id
+        // Initialize Smooch with your android-sdk integration id: https://docs.smooch.io/rest/#get-sdk-ids
         // Get your own at https://app.smooch.io/
         // and paste it here!
         Smooch.init(this, new Settings("59a93c829200175800018222"), new SmoochCallback<InitializationStatus>() {
