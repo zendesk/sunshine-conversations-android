@@ -17,9 +17,8 @@ public class DemoApplication extends Application {
     public void onCreate() {
         super.onCreate();
 
-        // Initialize Smooch with your android-sdk integration id: https://docs.smooch.io/rest/#get-sdk-ids
-        // Get your own at https://app.smooch.io/
-        // and paste it here!
+        // Below is where you would put your app's android-sdk integrationId to initialize the Smooch class;
+        // Find it on the Sunshine Conversations dashboard, or via API: https://docs.smooch.io/rest/#get-sdk-ids
         Smooch.init(this, new Settings("59a93c829200175800018222"), new SmoochCallback<InitializationStatus>() {
             @Override
             public void run(Response response) {
