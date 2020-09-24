@@ -50,9 +50,34 @@
     <string name="Smooch_messageStatusSeen">Seen</string>
     <string name="Smooch_retrievingFile">Retrieving your file…</string>
     <string name="Smooch_notificationFallbackText">Sent a message</string>
+    <string name="Smooch_conversationListEmpty">No Conversations</string>
+    <string name="Smooch_conversationLastUpdatedMinute">1 minute ago</string>
+    <string name="Smooch_conversationLastUpdatedMinutes">%d minutes ago</string>
+    <string name="Smooch_conversationLastUpdatedHour">1 hour ago</string>
+    <string name="Smooch_conversationLastUpdatedHours">%d hours ago</string>
+    <string name="Smooch_conversationLastUpdatedYesterday">Yesterday</string>
+    <string name="Smooch_conversationListError">Unable to load conversations</string>
+    <string name="Smooch_btnRetry">Retry</string>
+    <string name="Smooch_conversationListLastNoMessages">No messages</string>
+    <string name="Smooch_conversationListLastSentByCurrentUser">You</string>
+    <string name="Smooch_conversationListLastMessageImage">%s sent an image</string>
+    <string name="Smooch_conversationListLastMessageFile">%s sent a file</string>
+    <string name="Smooch_conversationListLastMessageForm">%s sent a form</string>
+    <string name="Smooch_conversationListLastMessageDefault">%s sent a message</string>
+    <string name="Smooch_badgeCountMoreThanOneDigit">9+</string>
+    <string name="Smooch_conversationListNavBar">My conversations</string>
+    <string name="Smooch_btnNewConversation">New Conversation</string>
     <plurals name="Smooch_unreadMessagesText">
         <item quantity="one">%d unread message</item>
         <item quantity="other">%d unread messages</item>
+    </plurals>
+    <plurals name="Smooch_conversationLastUpdatedMinutes">
+        <item quantity="one">%d minute ago</item>
+        <item quantity="other">%d minutes ago</item>
+    </plurals>
+    <plurals name="Smooch_conversationLastUpdatedHours">
+        <item quantity="one">%d hour ago</item>
+        <item quantity="other">%d hours ago</item>
     </plurals>
 </resources>
 

@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.smooch</groupId>
   <artifactId>core</artifactId>
-  <version>7.0.3</version>
+  <version>8.0.0</version>
   <packaging>aar</packaging>
   <name>Smooch</name>
   <url>http://smooch.io</url>
@@ -40,9 +40,9 @@
       <scope>runtime</scope>
     </dependency>
     <dependency>
-      <groupId>com.android.support</groupId>
-      <artifactId>support-annotations</artifactId>
-      <version>28.0.0</version>
+      <groupId>androidx.annotation</groupId>
+      <artifactId>annotation</artifactId>
+      <version>1.1.0</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
