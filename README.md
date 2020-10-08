@@ -8,8 +8,8 @@ Sign up and get an integration id: [https://app.smooch.io/signup](https://app.sm
 Add the dependencies right into your `build.gradle` file
 
 ```
-implementation 'io.smooch:core:8.0.0'
-implementation 'io.smooch:ui:8.0.0'
+implementation 'io.smooch:core:7.0.4'
+implementation 'io.smooch:ui:7.0.4'
 ```
 
 Initialize Smooch in your [Application](https://developer.android.com/reference/android/app/Application.html) class
@@ -58,11 +58,17 @@ Smooch uses the following dependencies:
     implementation 'com.squareup.retrofit2:retrofit:2.6.2'
     implementation 'com.squareup.retrofit2:converter-gson:2.6.2'
     implementation 'com.google.dagger:dagger:2.25.2'
+    implementation 'com.android.support:support-annotations:28.0.0'
 
     annotationProcessor 'com.google.dagger:dagger-compiler:2.25.2'
 
     // UI dependencies
     implementation 'com.github.bumptech.glide:glide:4.9.0'
+    implementation 'com.android.support:support-v4:28.0.0'
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support:exifinterface:28.0.0'
+    implementation 'com.android.support:recyclerview-v7:28.0.0'
+    implementation 'com.android.support:support-media-compat:28.0.0'
     implementation 'com.google.android.gms:play-services-location:16.0.0'
     implementation 'com.davemorrissey.labs:subsampling-scale-image-view:3.10.0'
 ```
@@ -70,6 +76,7 @@ Smooch uses the following dependencies:
 If your app also uses Firebase or support libraries, their version must match the ones used by Smooch to avoid runtime errors. If you need to update the version used by Smooch to match yours, you can do so by updating the dependencies in your app's `build.gradle` file.
 
 ```
+def supportLibraryVersion = "YOUR_SUPPORT_LIBRARY_VERSION"
 def firebaseMessagingVersion = "YOUR_FIREBASE_MESSAGING_VERSION"
 def playServicesVersion = "YOUR_PLAY_SERVICES_VERSION"
 
@@ -78,8 +85,8 @@ dependencies {
     implementation "com.android.support:appcompat-v7:${supportLibraryVersion}"
 
     // Smooch
-    implementation 'io.smooch:core:8.0.0'
-    implementation 'io.smooch:ui:8.0.0'
+    implementation 'io.smooch:core:7.0.4'
+    implementation 'io.smooch:ui:7.0.4'
 
     // Libraries imported by Smooch
     implementation "com.google.firebase:firebase-messaging:${firebaseMessagingVersion}"
