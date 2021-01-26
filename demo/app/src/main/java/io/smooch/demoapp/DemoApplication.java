@@ -41,6 +41,6 @@ public class DemoApplication extends Application {
         customProperties.put("Last Seen", new Date());
         customProperties.put("Awesome", true);
         customProperties.put("Karma", 1337);
-        user.addProperties(customProperties);
+        user.addMetadata(customProperties);
     }
 }

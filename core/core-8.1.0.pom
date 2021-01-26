@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.smooch</groupId>
   <artifactId>core</artifactId>
-  <version>8.0.0</version>
+  <version>8.1.0</version>
   <packaging>aar</packaging>
   <name>Smooch</name>
   <url>http://smooch.io</url>
