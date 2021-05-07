@@ -25,7 +25,7 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
     // Add Smooch ui to use the SDK out of the box
-    implementation 'io.smooch:ui:8.+'
+    implementation 'io.smooch:ui:8.2.0'
 
     // Smooch core is included in ui and can be omitted
     // Add it to your dependencies if you intend to build a custom UI
