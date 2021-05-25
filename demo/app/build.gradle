@@ -1,12 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion rootProject.apiLevel
+    compileSdkVersion 30
 
     defaultConfig {
         applicationId "io.smooch.demoapp"
         minSdkVersion 16
-        targetSdkVersion rootProject.apiLevel
+        targetSdkVersion 30
         versionCode 1
         versionName "1.0"
     }

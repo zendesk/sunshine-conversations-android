@@ -64,30 +64,26 @@ Smooch uses the following dependencies:
     // UI dependencies
     implementation 'com.github.bumptech.glide:glide:4.11.0'
     implementation 'com.google.android.gms:play-services-location:17.1.0'
-    implementation 'com.davemorrissey.labs:subsampling-scale-image-view:3.10.0'
+    implementation 'com.davemorrissey.labs:subsampling-scale-image-view-androidx:3.10.0'
 ```
 
 If your app also uses Firebase or support libraries, their version must match the ones used by Smooch to avoid runtime errors. If you need to update the version used by Smooch to match yours, you can do so by updating the dependencies in your app's `build.gradle` file.
 
 ```
-def firebaseMessagingVersion = "YOUR_FIREBASE_MESSAGING_VERSION"
-def playServicesVersion = "YOUR_PLAY_SERVICES_VERSION"
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation "com.android.support:appcompat-v7:${supportLibraryVersion}"
-
     // Smooch
     implementation 'io.smooch:core:8.2.1'
     implementation 'io.smooch:ui:8.2.1'
 
     // Libraries imported by Smooch
-    implementation "com.google.firebase:firebase-messaging:${firebaseMessagingVersion}"
-    implementation "com.android.support:support-v4:${supportLibraryVersion}"
-    implementation "com.android.support:exifinterface:${supportLibraryVersion}"
-    implementation "com.android.support:recyclerview-v7:${supportLibraryVersion}"
-    implementation "com.android.support:support-media-compat:${supportLibraryVersion}"
-    implementation "com.google.android.gms:play-services-location:${playServicesVersion}"
+    implementation "com.google.firebase:firebase-messaging:21.0.1"
+    implementation "androidx.appcompat:appcompat:1.2.0"
+    implementation "androidx.legacy:legacy-support-v4:1.0.0"
+    implementation "androidx.exifinterface:exifinterface:1.3.2"
+    implementation "androidx.recyclerview:recyclerview:1.1.0"
+    implementation "androidx.media:media:1.2.1"
+    implementation "com.google.android.gms:play-services-location:17.1.0"
 
     // Your other app dependencies
 }
