@@ -7,6 +7,7 @@ import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import android.view.Menu;
 
+import io.smooch.features.conversationlist.ConversationListActivity;
 import io.smooch.ui.ConversationActivity;
 
 
@@ -48,9 +49,12 @@ public class MainActivity extends AppCompatActivity
                         .commit();
                 break;
             case 1:
-                ConversationActivity.builder().show(this);
+                ConversationListActivity.builder().show(this);
                 break;
             case 2:
+                ConversationActivity.builder().show(this);
+                break;
+            case 3:
                 SettingsFragment settingsFragment = new SettingsFragment();
 
                 fragmentManager.beginTransaction()
@@ -71,6 +75,9 @@ public class MainActivity extends AppCompatActivity
                 break;
             case 3:
                 title = getString(R.string.title_section3);
+                break;
+            case 4:
+                title = getString(R.string.title_section4);
                 break;
         }
     }

@@ -8,8 +8,8 @@ Sign up and get an integration id: [https://app.smooch.io/signup](https://app.sm
 Add the dependencies right into your `build.gradle` file
 
 ```
-implementation 'io.smooch:core:8.2.1'
-implementation 'io.smooch:ui:8.2.1'
+implementation 'io.smooch:core:8.2.2'
+implementation 'io.smooch:ui:8.2.2'
 ```
 
 Initialize Smooch in your [Application](https://developer.android.com/reference/android/app/Application.html) class
@@ -73,8 +73,8 @@ If your app also uses Firebase or support libraries, their version must match th
 
 dependencies {
     // Smooch
-    implementation 'io.smooch:core:8.2.1'
-    implementation 'io.smooch:ui:8.2.1'
+    implementation 'io.smooch:core:8.2.2'
+    implementation 'io.smooch:ui:8.2.2'
 
     // Libraries imported by Smooch
     implementation "com.google.firebase:firebase-messaging:21.0.1"

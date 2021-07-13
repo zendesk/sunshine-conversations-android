@@ -18,7 +18,7 @@
     <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="@string/title_section3"
+            android:text="@string/title_section4"
             android:id="@+id/text_title"
             android:layout_gravity="center_horizontal"
             android:textAlignment="center"

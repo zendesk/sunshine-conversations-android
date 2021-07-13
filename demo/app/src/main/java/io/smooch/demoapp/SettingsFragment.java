@@ -77,7 +77,7 @@ public class SettingsFragment extends Fragment {
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
-        ((MainActivity) context).onSectionAttached(3);
+        ((MainActivity) context).onSectionAttached(4);
     }
 
     private void hideKeyboard() {
