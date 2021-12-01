@@ -1,12 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 30
+    compileSdkVersion 31
 
     defaultConfig {
         applicationId "io.smooch.demoapp"
-        minSdkVersion 16
-        targetSdkVersion 30
+        minSdkVersion 19
+        targetSdkVersion 31
         versionCode 1
         versionName "1.0"
     }
@@ -28,7 +28,8 @@ android {
 dependencies {
 
     // Add Smooch ui to use the SDK out of the box
-    implementation 'io.smooch:ui:8.2.1'
+    implementation project(":ui")
+    //implementation 'io.smooch:ui:8.2.1'
 
     // Smooch core is included in ui and can be omitted
     // Add it to your dependencies if you intend to build a custom UI

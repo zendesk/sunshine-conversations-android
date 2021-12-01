@@ -3,7 +3,7 @@
     package="io.smooch.demoapp" >
 
     <application
-        android:allowBackup="true"
+        android:allowBackup="false"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:name="io.smooch.demoapp.DemoApplication"
@@ -11,6 +11,7 @@
         <activity
             android:name="io.smooch.demoapp.MainActivity"
             android:screenOrientation="portrait"
+            android:exported="true"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

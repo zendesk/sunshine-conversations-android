@@ -8,8 +8,8 @@ Sign up and get an integration id: [https://app.smooch.io/signup](https://app.sm
 Add the dependencies right into your `build.gradle` file
 
 ```
-implementation 'io.smooch:core:8.2.2'
-implementation 'io.smooch:ui:8.2.2'
+implementation 'io.smooch:core:9.0.0'
+implementation 'io.smooch:ui:9.0.0'
 ```
 
 Initialize Smooch in your [Application](https://developer.android.com/reference/android/app/Application.html) class
@@ -52,18 +52,18 @@ Smooch uses the following dependencies:
 
 ```
     // Core dependencies
-    implementation 'com.google.firebase:firebase-messaging:21.0.1'
+    implementation 'com.google.firebase:firebase-messaging:23.0.0'
     implementation 'com.google.code.gson:gson:2.8.6'
     implementation 'com.squareup.okhttp3:okhttp:3.12.6'
     implementation 'com.squareup.retrofit2:retrofit:2.6.2'
     implementation 'com.squareup.retrofit2:converter-gson:2.6.2'
-    implementation 'com.google.dagger:dagger:2.28.3'
+    implementation 'com.google.dagger:dagger:2.30.1'
 
-    annotationProcessor 'com.google.dagger:dagger-compiler:2.28.3'
+    annotationProcessor 'com.google.dagger:dagger-compiler:2.30.1'
 
     // UI dependencies
     implementation 'com.github.bumptech.glide:glide:4.11.0'
-    implementation 'com.google.android.gms:play-services-location:17.1.0'
+    implementation 'com.google.android.gms:play-services-location:18.0.0'
     implementation 'com.davemorrissey.labs:subsampling-scale-image-view-androidx:3.10.0'
 ```
 
@@ -73,17 +73,17 @@ If your app also uses Firebase or support libraries, their version must match th
 
 dependencies {
     // Smooch
-    implementation 'io.smooch:core:8.2.2'
-    implementation 'io.smooch:ui:8.2.2'
+    implementation 'io.smooch:core:9.0.0'
+    implementation 'io.smooch:ui:9.0.0'
 
     // Libraries imported by Smooch
-    implementation "com.google.firebase:firebase-messaging:21.0.1"
-    implementation "androidx.appcompat:appcompat:1.2.0"
+    implementation "com.google.firebase:firebase-messaging:23.0.0"
+    implementation "androidx.appcompat:appcompat:1.3.1"
     implementation "androidx.legacy:legacy-support-v4:1.0.0"
-    implementation "androidx.exifinterface:exifinterface:1.3.2"
-    implementation "androidx.recyclerview:recyclerview:1.1.0"
-    implementation "androidx.media:media:1.2.1"
-    implementation "com.google.android.gms:play-services-location:17.1.0"
+    implementation "androidx.exifinterface:exifinterface:1.3.3"
+    implementation "androidx.recyclerview:recyclerview:1.2.1"
+    implementation "androidx.media:media:1.4.3"
+    implementation "com.google.android.gms:play-services-location:18.0.0"
 
     // Your other app dependencies
 }
