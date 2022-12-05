@@ -1,6 +1,6 @@
 # [Smooch SDK for Android](http://www.smooch.io)
 
-[![Bintray](https://api.bintray.com/packages/smoochorg/maven/smooch/images/download.svg)](https://bintray.com/smoochorg/maven/smooch/view#files)
+[![Bintray](https://api.bintray.com/packages/smoochorg/maven/smooch/images/download.svg)](https://zendesk.jfrog.io/ui/native/repo/io/smooch/)
 [![License](http://img.shields.io/cocoapods/l/Smooch.svg)](https://smooch.io/terms)
 
 Sign up and get an integration id: [https://app.smooch.io/signup](https://app.smooch.io/signup).
