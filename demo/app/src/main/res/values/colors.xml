@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="Smooch_accent">#9200aa</color>
-    <color name="Smooch_accentDark">#76008a</color>
-    <color name="Smooch_accentLight">#be7cca</color>
+    <color name="Smooch_accent">#e8bf30</color>
+    <color name="Smooch_accentDark">#dea91e</color>
+    <color name="Smooch_accentLight">#f8ecc1</color>
 </resources>
 

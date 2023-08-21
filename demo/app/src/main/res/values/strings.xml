@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <string name="app_name">Demo App</string>
 
-    <string name="title_section1">Smooch</string>
-    <string name="title_section2">Show My Conversations</string>
-    <string name="title_section3">Start a Conversation</string>
-    <string name="title_section4">Settings</string>
-    
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="button_show">Show Conversation</string>
+    <string name="show_conversations_list">Show Conversations List</string>
+    <string name="manage_user">Manage User</string>
+    <string name="start_conversation">Start Conversation</string>
+    <string name="update_conversation">Update Conversation</string>
+    <string name="manage_conversation">Manage Conversation</string>
+    <string name="intercept_conversation">Intercept Create Conversation</string>
+    <string name="settings">Settings</string>
 
-    <string name="Smooch_demo_welcome">Welcome to Smooch</string>
-    <string name="Smooch_demo_show_conversation">Smooch Me</string>
-    <string name="Smooch_demo_intro">Smooch lets you build rich app-to-users messaging inside your apps and websites. Try out this demo app to see what it can do for you.</string>
+    <string name="sunco_demo_intro">Sunshine Conversation SDK lets you build rich app-to-users messaging inside
+        your apps and websites. Try out this demo app to see what it can do for you.</string>
 
-    <string name="Smooch_demo_integration_id">You can set your own integration id if you want to have a conversation with yourself.</string>
+    <string name="sunco_demo_integration_id">You can set your own integration id if you want to have
+        a conversation with yourself.</string>
 </resources>
