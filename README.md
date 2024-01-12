@@ -8,8 +8,8 @@ Sign up and get an integration id: [https://app.smooch.io/signup](https://app.sm
 Add the dependencies right into your `build.gradle` file
 
 ```
-implementation 'io.smooch:core:9.2.0'
-implementation 'io.smooch:ui:9.2.0'
+implementation 'io.smooch:core:9.3.0'
+implementation 'io.smooch:ui:9.3.0'
 ```
 
 Initialize Smooch in your [Application](https://developer.android.com/reference/android/app/Application.html) class
@@ -53,7 +53,7 @@ Smooch uses the following dependencies:
 ```
     // Core dependencies
     implementation 'com.google.firebase:firebase-messaging:23.0.0'
-    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation 'com.google.code.gson:gson:2.10.1'
     implementation 'com.squareup.okhttp3:okhttp:3.12.6'
     implementation 'com.squareup.retrofit2:retrofit:2.6.2'
     implementation 'com.squareup.retrofit2:converter-gson:2.6.2'
@@ -63,7 +63,7 @@ Smooch uses the following dependencies:
 
     // UI dependencies
     implementation 'com.github.bumptech.glide:glide:4.11.0'
-    implementation 'com.google.android.gms:play-services-location:18.0.0'
+    implementation 'com.google.android.gms:play-services-location:21.0.1'
     implementation 'com.davemorrissey.labs:subsampling-scale-image-view-androidx:3.10.0'
 ```
 
@@ -73,8 +73,8 @@ If your app also uses Firebase or support libraries, their version must match th
 
 dependencies {
     // Smooch
-    implementation 'io.smooch:core:9.2.0'
-    implementation 'io.smooch:ui:9.2.0'
+    implementation 'io.smooch:core:9.3.0'
+    implementation 'io.smooch:ui:9.3.0'
 
     // Libraries imported by Smooch
     implementation "com.google.firebase:firebase-messaging:23.0.0"
@@ -83,7 +83,7 @@ dependencies {
     implementation "androidx.exifinterface:exifinterface:1.3.3"
     implementation "androidx.recyclerview:recyclerview:1.2.1"
     implementation "androidx.media:media:1.4.3"
-    implementation "com.google.android.gms:play-services-location:18.0.0"
+    implementation "com.google.android.gms:play-services-location:21.0.1"
 
     // Your other app dependencies
 }
