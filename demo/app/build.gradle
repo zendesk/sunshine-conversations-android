@@ -3,7 +3,9 @@ apply plugin: "kotlin-android"
 apply plugin: 'kotlin-android-extensions'
 
 android {
-    compileSdkVersion 34
+    namespace 'io.smooch.demoapp'
+
+    compileSdk 34
 
     defaultConfig {
         applicationId "io.smooch.demoapp"
@@ -29,7 +31,7 @@ android {
     lintOptions {
         abortOnError false
     }
-    flavorDimensions "dependencies"
+    flavorDimensions = ["dependencies"]
     productFlavors {
         local {
             dimension "dependencies"
