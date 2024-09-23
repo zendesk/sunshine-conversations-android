@@ -1,6 +1,5 @@
 apply plugin: 'com.android.application'
-apply plugin: 'kotlin-android'
-apply plugin: 'kotlin-android-extensions'
+apply plugin: "kotlin-android"
 
 android {
     namespace 'io.smooch.demoapp'
@@ -8,11 +7,11 @@ android {
     compileSdk 34
 
     defaultConfig {
-        applicationId 'io.smooch.demoapp'
+        applicationId "io.smooch.demoapp"
         minSdkVersion 21
         targetSdkVersion 34
         versionCode 1
-        versionName '1.0'
+        versionName "1.0"
         multiDexEnabled true
     }
     buildTypes {
@@ -22,8 +21,8 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
     }
     buildFeatures {
         viewBinding true
@@ -31,18 +30,41 @@ android {
     lintOptions {
         abortOnError false
     }
+    flavorDimensions = ["dependencies"]
+    productFlavors {
+        local {
+            dimension "dependencies"
+        }
+        remote {
+            dimension "dependencies"
+        }
+    }
+    if (rootProject.ext.skipRemoteFlavoredTasks) {
+        println("Skipping remote flavored tasks...")
+        variantFilter { variant ->
+            if (variant.name.contains("remote") || variant.name.contains("Remote")) {
+                variant.setIgnore(true)
+                println("${variant.name} disabled.")
+            }
+        }
+    }
+
 }
 
 dependencies {
 
     // Add Smooch ui to use the SDK out of the box
-    implementation 'io.smooch:ui:9.4.0'
+    localImplementation project(":ui")
+
+    remoteImplementation(libs.smooch.ui) {
+        changing = true
+    }
 
     // Smooch core is included in ui and can be omitted
     // Add it to your dependencies if you intend to build a custom UI
     // implementation 'io.smooch:core:7.+'
-    implementation 'androidx.appcompat:appcompat:1.3.1'
-    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation libs.androidx.appcompat
+    implementation libs.androidx.legacy.support.v4
 }
 
 apply plugin: 'com.google.gms.google-services'

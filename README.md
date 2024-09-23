@@ -8,8 +8,8 @@ Sign up and get an integration id: [https://app.smooch.io/signup](https://app.sm
 Add the dependencies right into your `build.gradle` file
 
 ```
-implementation 'io.smooch:core:9.4.0'
-implementation 'io.smooch:ui:9.4.0'
+implementation 'io.smooch:core:9.5.0'
+implementation 'io.smooch:ui:9.5.0'
 ```
 
 Initialize Smooch in your [Application](https://developer.android.com/reference/android/app/Application.html) class
@@ -52,18 +52,18 @@ Smooch uses the following dependencies:
 
 ```
     // Core dependencies
-    implementation 'com.google.firebase:firebase-messaging:23.0.0'
+    implementation 'com.google.firebase:firebase-messaging:23.0.6'
     implementation 'com.google.code.gson:gson:2.10.1'
-    implementation 'com.squareup.okhttp3:okhttp:4.9.0'
-    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
-    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
-    implementation 'com.google.dagger:dagger:2.47'
+    implementation 'com.squareup.okhttp3:okhttp:4.12.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.11.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.11.0'
+    implementation 'com.google.dagger:dagger:2.51.1'
 
-    annotationProcessor 'com.google.dagger:dagger-compiler:2.47'
+    annotationProcessor 'com.google.dagger:dagger-compiler:2.51.1'
 
     // UI dependencies
     implementation 'com.github.bumptech.glide:glide:4.11.0'
-    implementation 'com.google.android.gms:play-services-location:21.0.1'
+    implementation 'com.google.android.gms:play-services-location:21.3.0'
     implementation 'com.davemorrissey.labs:subsampling-scale-image-view-androidx:3.10.0'
 ```
 
@@ -73,22 +73,19 @@ If your app also uses Firebase or support libraries, their version must match th
 
 dependencies {
     // Smooch
-    implementation 'io.smooch:core:9.4.0'
-    implementation 'io.smooch:ui:9.4.0'
+    implementation 'io.smooch:core:9.5.0'
+    implementation 'io.smooch:ui:9.5.0'
 
     // Libraries imported by Smooch
-    implementation "com.google.firebase:firebase-messaging:23.0.0"
-    implementation "androidx.appcompat:appcompat:1.3.1"
+    implementation "com.google.firebase:firebase-messaging:23.0.6"
+    implementation "androidx.appcompat:appcompat:1.7.0"
     implementation "androidx.legacy:legacy-support-v4:1.0.0"
-    implementation "androidx.exifinterface:exifinterface:1.3.3"
-    implementation "androidx.recyclerview:recyclerview:1.2.1"
-    implementation "androidx.media:media:1.4.3"
-    implementation "com.google.android.gms:play-services-location:21.0.1"
+    implementation "androidx.exifinterface:exifinterface:1.3.7"
+    implementation "androidx.recyclerview:recyclerview:1.3.2"
+    implementation "androidx.media:media:1.7.0"
+    implementation "com.google.android.gms:play-services-location:21.3.0"
 
     // Your other app dependencies
 }
 
 ```
-
-# Bugs
-Please submit bug reports to [Zendesk](https://support.zendesk.com/hc/en-us/articles/4408843597850) and be sure to consult our [Getting help section](https://developer.zendesk.com/documentation/zendesk-web-widget-sdks/getting_support_on_zendesk_mobile_sdks/) of our documentation.
