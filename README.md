@@ -1,5 +1,7 @@
 # [Smooch SDK for Android](http://www.smooch.io)
 
+Please submit bug reports to [Zendesk](https://support.zendesk.com/hc/en-us/articles/4408843597850) and be sure to consult our [Getting help section](https://developer.zendesk.com/documentation/zendesk-web-widget-sdks/getting_support_on_zendesk_mobile_sdks/) of our documentation.
+
 [![Bintray](https://api.bintray.com/packages/smoochorg/maven/smooch/images/download.svg)](https://zendesk.jfrog.io/ui/native/repo/io/smooch/)
 [![License](http://img.shields.io/cocoapods/l/Smooch.svg)](https://smooch.io/terms)
 
