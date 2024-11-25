@@ -4,14 +4,14 @@ apply plugin: "kotlin-android"
 android {
     namespace 'io.smooch.demoapp'
 
-    compileSdk 34
+    compileSdk 35
 
     defaultConfig {
-        applicationId "io.smooch.demoapp"
+        applicationId 'io.smooch.demoapp'
         minSdkVersion 21
-        targetSdkVersion 34
+        targetSdkVersion 35
         versionCode 1
-        versionName "1.0"
+        versionName '1.0'
         multiDexEnabled true
     }
     buildTypes {
@@ -30,41 +30,18 @@ android {
     lintOptions {
         abortOnError false
     }
-    flavorDimensions = ["dependencies"]
-    productFlavors {
-        local {
-            dimension "dependencies"
-        }
-        remote {
-            dimension "dependencies"
-        }
-    }
-    if (rootProject.ext.skipRemoteFlavoredTasks) {
-        println("Skipping remote flavored tasks...")
-        variantFilter { variant ->
-            if (variant.name.contains("remote") || variant.name.contains("Remote")) {
-                variant.setIgnore(true)
-                println("${variant.name} disabled.")
-            }
-        }
-    }
-
 }
 
 dependencies {
 
     // Add Smooch ui to use the SDK out of the box
-    localImplementation project(":ui")
-
-    remoteImplementation(libs.smooch.ui) {
-        changing = true
-    }
+    implementation 'io.smooch:ui:9.5.0'
 
     // Smooch core is included in ui and can be omitted
     // Add it to your dependencies if you intend to build a custom UI
     // implementation 'io.smooch:core:7.+'
-    implementation libs.androidx.appcompat
-    implementation libs.androidx.legacy.support.v4
+    implementation 'androidx.appcompat:appcompat:1.7.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
 }
 
 apply plugin: 'com.google.gms.google-services'
