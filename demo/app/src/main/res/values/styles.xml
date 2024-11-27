@@ -1,5 +1,5 @@
 <resources>
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="colorAccent">@color/Smooch_accent</item>
         <item name="colorPrimary">@color/Smooch_accent</item>
         <item name="colorPrimaryDark">@color/Smooch_accentDark</item>

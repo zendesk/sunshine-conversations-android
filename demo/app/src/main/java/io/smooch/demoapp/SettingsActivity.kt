@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import io.smooch.core.Settings
 import io.smooch.core.Smooch
 import io.smooch.demoapp.databinding.ActivitySettingsBinding
+import io.smooch.demoapp.utils.setupToolbar
 
 class SettingsActivity : AppCompatActivity() {
 
@@ -15,6 +16,8 @@ class SettingsActivity : AppCompatActivity() {
 
         val binding = ActivitySettingsBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        setupToolbar(binding.settingsActivityToolbar)
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 

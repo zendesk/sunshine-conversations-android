@@ -6,6 +6,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import io.smooch.core.Smooch
 import io.smooch.demoapp.databinding.ActivityInterceptBinding
+import io.smooch.demoapp.utils.setupToolbar
 import io.smooch.ui.ConversationActivity
 import javax.net.ssl.HttpsURLConnection
 
@@ -16,6 +17,8 @@ class InterceptActivity : AppCompatActivity() {
 
         val binding = ActivityInterceptBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        setupToolbar(binding.interceptActivityToolbar)
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 

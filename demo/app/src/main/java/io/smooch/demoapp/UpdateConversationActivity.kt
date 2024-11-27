@@ -7,6 +7,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import io.smooch.core.Smooch
 import io.smooch.demoapp.databinding.ActivityUpdateConversationBinding
+import io.smooch.demoapp.utils.setupToolbar
 import javax.net.ssl.HttpsURLConnection
 
 class UpdateConversationActivity : AppCompatActivity() {
@@ -16,6 +17,8 @@ class UpdateConversationActivity : AppCompatActivity() {
 
         val binding = ActivityUpdateConversationBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        setupToolbar(binding.updateConversationActivityToolbar)
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
