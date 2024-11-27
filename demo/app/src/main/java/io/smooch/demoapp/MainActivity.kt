@@ -9,6 +9,7 @@ import io.smooch.core.Logger
 import io.smooch.core.Smooch
 import io.smooch.core.User
 import io.smooch.demoapp.databinding.ActivityMainBinding
+import io.smooch.demoapp.utils.setupToolbar
 import io.smooch.features.conversationlist.ConversationListActivity
 import io.smooch.ui.ConversationActivity
 import java.util.Date
@@ -26,6 +27,8 @@ class MainActivity : AppCompatActivity() {
 
         val binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        setupToolbar(binding.mainActivityToolbar)
 
         binding.buttonShow.setOnClickListener {
             ConversationActivity.builder()
@@ -113,5 +116,4 @@ class MainActivity : AppCompatActivity() {
         customProperties["Karma"] = KARMA
         user.addMetadata(customProperties)
     }
-
 }
