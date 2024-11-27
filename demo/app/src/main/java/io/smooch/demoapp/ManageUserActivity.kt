@@ -12,6 +12,7 @@ import io.smooch.core.Smooch
 import io.smooch.core.SmoochCallback
 import io.smooch.core.User
 import io.smooch.demoapp.databinding.ActivityManageUserBinding
+import io.smooch.demoapp.utils.setupToolbar
 
 class ManageUserActivity : AppCompatActivity() {
 
@@ -20,6 +21,8 @@ class ManageUserActivity : AppCompatActivity() {
 
         val binding = ActivityManageUserBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        setupToolbar(binding.manageUserActivityToolbar)
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
