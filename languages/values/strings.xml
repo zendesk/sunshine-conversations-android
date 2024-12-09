@@ -34,6 +34,7 @@
     <string name="Smooch_problemGettingPhoto">There was a problem retrieving your photo.</string>
     <string name="Smooch_problemSavingPhoto">There was a problem saving your photo.</string>
     <string name="Smooch_problemLaunchingCamera">There was a problem launching the camera.</string>
+    <string name="Smooch_problemProcessingFile">There was an error processing the file you selected.</string>
     <string name="Smooch_unsupportedMessageType">Unsupported message type</string>
     <string name="Smooch_unsupportedActionType">Unsupported action type</string>
     <string name="Smooch_locationSendingFailed">Could not send location.</string>
