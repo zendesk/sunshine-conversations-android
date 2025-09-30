@@ -35,7 +35,7 @@ android {
 dependencies {
 
     // Add Smooch ui to use the SDK out of the box
-    implementation 'io.smooch:ui:9.9.0'
+    implementation 'io.smooch:ui:9.9.1'
 
     // Smooch core is included in ui and can be omitted
     // Add it to your dependencies if you intend to build a custom UI
