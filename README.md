@@ -70,7 +70,6 @@ Smooch uses the following dependencies:
 If your app also uses Firebase or support libraries, their version must match the ones used by Smooch to avoid runtime errors. If you need to update the version used by Smooch to match yours, you can do so by updating the dependencies in your app's `build.gradle` file.
 
 ```
-
 dependencies {
     // Smooch
     implementation 'io.smooch:core:9.11.0'
@@ -87,5 +86,4 @@ dependencies {
 
     // Your other app dependencies
 }
-
 ```
