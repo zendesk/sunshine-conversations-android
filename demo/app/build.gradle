@@ -1,15 +1,14 @@
 apply plugin: 'com.android.application'
-apply plugin: "kotlin-android"
 
 android {
     namespace 'io.smooch.demoapp'
 
-    compileSdk 36
+    compileSdk 37
 
     defaultConfig {
         applicationId 'io.smooch.demoapp'
         minSdkVersion 21
-        targetSdkVersion 36
+        targetSdkVersion 37
         versionCode 1
         versionName '1.0'
         multiDexEnabled true
@@ -17,7 +16,7 @@ android {
     buildTypes {
         release {
             minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
     compileOptions {
@@ -35,7 +34,7 @@ android {
 dependencies {
 
     // Add Smooch ui to use the SDK out of the box
-    implementation 'io.smooch:ui:9.11.0'
+    implementation 'io.smooch:ui:9.12.0'
 
     // Smooch core is included in ui and can be omitted
     // Add it to your dependencies if you intend to build a custom UI
